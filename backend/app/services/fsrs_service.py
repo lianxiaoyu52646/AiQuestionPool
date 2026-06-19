@@ -99,12 +99,21 @@ class FSRSService:
                           category_id: Optional[int] = None,
                           tag_id: Optional[int] = None,
                           search: Optional[str] = None) -> List[Question]:
-        """Get questions due for review today, with optional filters"""
+        """Get questions due for review today, with optional filters.
+        
+        Sorting: Review-stage (state==2) by stability asc (least stable first),
+        Learning-stage (state!=2) by due_date asc.
+        """
+        from sqlalchemy import case as sql_case
         now = datetime.utcnow()
 
         query = db.query(UserProgress).filter(
             UserProgress.due_date <= now
-        ).order_by(UserProgress.due_date.asc())
+        ).order_by(
+            sql_case((UserProgress.state == 2, 0), else_=1),  # Review stage first
+            sql_case((UserProgress.state == 2, UserProgress.stability), else_=0).asc(),  # stability for Review
+            UserProgress.due_date.asc()  # due_date for Learning / tiebreaker
+        )
 
         progress_list = query.limit(limit * 3).all()  # over-fetch to allow filtering
 
@@ -131,8 +140,15 @@ class FSRSService:
                           category_id: Optional[int] = None,
                           tag_id: Optional[int] = None,
                           search: Optional[str] = None) -> List[Question]:
-        """Get unlearned new questions (no UserProgress record), with optional filters"""
-        from sqlalchemy import select
+        """Get unlearned new questions, continuing from last learned position.
+        
+        Finds the max question_id already in UserProgress, then fetches
+        new questions with id > that position, preserving chapter order.
+        """
+        from sqlalchemy import select, func
+
+        # Find the last learned question position
+        max_learned_id = db.query(func.max(UserProgress.question_id)).scalar() or 0
 
         subquery = select(UserProgress.question_id)
 
@@ -149,7 +165,15 @@ class FSRSService:
         if tag_id:
             query = query.join(question_tags).filter(question_tags.c.tag_id == tag_id)
 
-        new_questions = query.order_by(Question.id.asc()).limit(limit).all()
+        # Prioritize questions after the last learned position (continue where left off)
+        # If not enough, wrap around to the beginning
+        from sqlalchemy import case as sql_case
+        query = query.order_by(
+            sql_case((Question.id > max_learned_id, 0), else_=1),
+            Question.id.asc()
+        )
+
+        new_questions = query.limit(limit).all()
 
         return new_questions
 

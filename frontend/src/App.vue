@@ -53,7 +53,6 @@ const navItems = [
   { path: '/', name: '首页', icon: '🏠' },
   { path: '/upload', name: '上传PDF', icon: '📤' },
   { path: '/questions', name: '题库', icon: '📝' },
-  { path: '/study', name: '学习', icon: '✍️' },
   { path: '/stats', name: '统计', icon: '📊' },
 ]
 </script>

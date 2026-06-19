@@ -13,7 +13,7 @@
         <router-link to="/upload" class="btn-primary text-lg px-8 py-3">
           📤 上传PDF
         </router-link>
-        <router-link to="/study" class="btn-success text-lg px-8 py-3">
+        <router-link to="/questions?mode=study" class="btn-success text-lg px-8 py-3">
           ✍️ 开始学习
         </router-link>
       </div>
@@ -39,31 +39,6 @@
       </div>
     </div>
 
-    <!-- 学习进度 -->
-    <div v-if="categoryStats.length > 0" class="card">
-      <h2 class="text-xl font-bold mb-6">📈 分类学习进度</h2>
-      <div class="space-y-4">
-        <div
-          v-for="cat in categoryStats"
-          :key="cat.id"
-          class="flex items-center space-x-4"
-        >
-          <div class="w-32 text-sm font-medium truncate">{{ cat.name }}</div>
-          <div class="flex-1">
-            <div class="w-full bg-gray-200 rounded-full h-2.5">
-              <div
-                class="bg-primary h-2.5 rounded-full transition-all duration-500"
-                :style="{ width: cat.progress_rate + '%' }"
-              ></div>
-            </div>
-          </div>
-          <div class="w-20 text-sm text-gray-600 text-right">
-            {{ cat.learned }}/{{ cat.total }}
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- 快速操作 -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <router-link to="/upload" class="card hover:shadow-md transition-shadow cursor-pointer">
@@ -71,7 +46,7 @@
         <h3 class="text-lg font-bold mb-2">上传PDF</h3>
         <p class="text-gray-600 text-sm">上传电子书，AI自动提取题目并分类</p>
       </router-link>
-      <router-link to="/study" class="card hover:shadow-md transition-shadow cursor-pointer">
+      <router-link to="/questions?mode=study" class="card hover:shadow-md transition-shadow cursor-pointer">
         <div class="text-4xl mb-4">✍️</div>
         <h3 class="text-lg font-bold mb-2">智能刷题</h3>
         <p class="text-gray-600 text-sm">FSRS算法智能推送，优先复习薄弱知识点</p>
@@ -114,28 +89,42 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { pdfApi, studyApi } from '../api'
+import { useStudyStore } from '../stores/studyStore'
+
+const studyStore = useStudyStore()
 
 const stats = ref(null)
 const dueCount = ref({ due_today: 0, new_questions: 0 })
-const categoryStats = ref([])
 const pdfList = ref([])
 
-onMounted(async () => {
+const loadData = async () => {
   try {
-    const [statsRes, dueRes, catRes, pdfRes] = await Promise.all([
+    const [statsRes, dueRes, pdfRes] = await Promise.all([
       studyApi.stats(),
       studyApi.dueCount(),
-      studyApi.statsByCategory(),
       pdfApi.list()
     ])
     stats.value = statsRes.data
     dueCount.value = dueRes.data
-    categoryStats.value = catRes.data
     pdfList.value = pdfRes.data
+    // 同步缓存
+    studyStore.cachedStats = statsRes.data
+    studyStore.cachedDueCount = dueRes.data
   } catch (e) {
     console.error('加载数据失败:', e)
   }
+}
+
+// 监听store版本变化（答题后触发刷新）
+watch(() => studyStore.statsVersion, (newVal, oldVal) => {
+  if (newVal > 0 && newVal !== oldVal) {
+    loadData()
+  }
+})
+
+onMounted(() => {
+  loadData()
 })
 </script>

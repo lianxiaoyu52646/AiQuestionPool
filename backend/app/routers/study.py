@@ -75,22 +75,19 @@ def review_question(
       - question_id: int
       - selected_answer: str (e.g. "A", "AB", "True", or text)
       - used_time_sec: int
+      - is_practice: bool (if True, only log + tag, skip FSRS scheduling)
     
     The system compares selected_answer with the correct answer,
     auto-rates (Again/Hard/Good/Easy) based on correctness + speed,
     then runs FSRS scheduling and auto-tags the question.
+    
+    In practice mode (is_practice=True), FSRS scheduling is skipped to
+    avoid polluting the spaced repetition data. Only ReviewLog and tags
+    are updated.
     """
     q = db.query(Question).filter(Question.id == request.question_id).first()
     if not q:
         raise HTTPException(404, "Question not found")
-
-    # Get or create progress record
-    progress = db.query(UserProgress).filter(
-        UserProgress.question_id == request.question_id
-    ).first()
-
-    if not progress:
-        progress = fsrs_service.create_progress(db, request.question_id)
 
     # Auto-rate: system judges correctness + speed -> FSRS rating 1-4
     rating = fsrs_service.auto_rate(
@@ -99,11 +96,47 @@ def review_question(
         used_time_sec=request.used_time_sec or 0
     )
 
+    # Log review record (always, for both practice and study modes)
+    fsrs_service.log_review(db, request.question_id, rating, request.used_time_sec or 0)
+
+    if request.is_practice:
+        # Practice mode: only log + tag, skip FSRS scheduling
+        # Still tag Wrong questions so they appear in error notebook
+        if rating == 1:
+            # Need a progress object for auto_tag, create if not exists but don't run FSRS
+            progress = db.query(UserProgress).filter(
+                UserProgress.question_id == request.question_id
+            ).first()
+            if progress:
+                fsrs_service.auto_tag(db, request.question_id, rating, progress)
+        db.commit()
+
+        is_correct = rating > 1
+        rating_labels = {1: "Again", 2: "Hard", 3: "Good", 4: "Easy"}
+        return {
+            "message": "Practice review logged (FSRS skipped)",
+            "is_correct": is_correct,
+            "correct_answer": q.answer,
+            "auto_rating": rating,
+            "auto_rating_label": rating_labels.get(rating, "Unknown"),
+            "next_due": None,
+            "next_interval_days": 0,
+            "state": 0,
+            "reps": 0,
+            "lapses": 0
+        }
+
+    # Study mode: full FSRS scheduling
+    # Get or create progress record
+    progress = db.query(UserProgress).filter(
+        UserProgress.question_id == request.question_id
+    ).first()
+
+    if not progress:
+        progress = fsrs_service.create_progress(db, request.question_id)
+
     # FSRS review calculation
     progress = fsrs_service.review(progress, rating)
-
-    # Log review record
-    fsrs_service.log_review(db, request.question_id, rating, request.used_time_sec or 0)
 
     # Auto-tag based on result
     fsrs_service.auto_tag(db, request.question_id, rating, progress)
@@ -267,7 +300,7 @@ def get_session_summary(
     Returns: total reviewed, correct count, wrong count, avg time, by-category breakdown.
     """
     from datetime import datetime, timedelta
-    from sqlalchemy import func
+    from sqlalchemy import func, case as sql_case
 
     since = datetime.utcnow() - timedelta(hours=hours)
 
@@ -300,7 +333,7 @@ def get_session_summary(
     cat_stats = db.query(
         Category.name,
         func.count(ReviewLog.id).label("count"),
-        func.sum(func.case((ReviewLog.rating > 1, 1), else_=0)).label("correct")
+        func.sum(sql_case((ReviewLog.rating > 1, 1), else_=0)).label("correct")
     ).join(Question, ReviewLog.question_id == Question.id
     ).join(Category, Question.category_id == Category.id
     ).filter(ReviewLog.review_time >= since

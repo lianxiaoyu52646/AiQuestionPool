@@ -1,9 +1,19 @@
 <template>
   <div class="space-y-6">
-    <h1 class="text-2xl font-bold">📊 学习统计</h1>
+    <div class="flex items-center justify-between">
+      <h1 class="text-2xl font-bold">📊 学习统计</h1>
+      <button
+        @click="loadAll"
+        :disabled="loading"
+        class="btn-secondary text-sm flex items-center gap-1"
+      >
+        <span :class="{ 'animate-spin': loading }">🔄</span>
+        {{ loading ? '加载中...' : '刷新' }}
+      </button>
+    </div>
 
     <!-- 总览卡片 -->
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div class="card text-center">
         <div class="text-3xl font-bold text-primary">{{ stats.total_questions }}</div>
         <div class="text-sm text-gray-500 mt-1">总题数</div>
@@ -20,23 +30,19 @@
         <div class="text-3xl font-bold text-warning">{{ stats.due_today }}</div>
         <div class="text-sm text-gray-500 mt-1">今日待复习</div>
       </div>
-      <div class="card text-center">
-        <div class="text-3xl font-bold text-danger">{{ stats.new_questions }}</div>
-        <div class="text-sm text-gray-500 mt-1">新题</div>
-      </div>
     </div>
 
-    <!-- 掌握率 -->
-    <div class="card">
-      <div class="flex items-center justify-between mb-4">
-        <h2 class="text-lg font-bold">🎯 整体掌握率</h2>
-        <span class="text-2xl font-bold text-primary">{{ stats.master_rate }}%</span>
+    <!-- 今日学习概况 -->
+    <div v-if="sessionSummary" class="grid grid-cols-2 gap-4">
+      <div class="card text-center">
+        <div class="text-2xl font-bold text-primary">{{ sessionSummary.total }}</div>
+        <div class="text-sm text-gray-500 mt-1">今日答题数</div>
       </div>
-      <div class="w-full bg-gray-200 rounded-full h-4">
-        <div
-          class="bg-gradient-to-r from-primary to-success h-4 rounded-full transition-all duration-1000"
-          :style="{ width: stats.master_rate + '%' }"
-        ></div>
+      <div class="card text-center">
+        <div class="text-2xl font-bold" :class="accuracyColor(sessionSummary.accuracy)">
+          {{ sessionSummary.accuracy }}%
+        </div>
+        <div class="text-sm text-gray-500 mt-1">正确率</div>
       </div>
     </div>
 
@@ -68,54 +74,17 @@
       </div>
     </div>
 
-    <!-- 最近答题记录 -->
-    <div class="card">
-      <h2 class="text-lg font-bold mb-4">📝 最近答题记录</h2>
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm">
-          <thead>
-            <tr class="border-b">
-              <th class="text-left py-2 px-4">时间</th>
-              <th class="text-left py-2 px-4">题目</th>
-              <th class="text-center py-2 px-4">评级</th>
-              <th class="text-center py-2 px-4">用时</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="log in reviewHistory"
-              :key="log.id"
-              class="border-b hover:bg-gray-50"
-            >
-              <td class="py-2 px-4 text-gray-500">
-                {{ formatTime(log.review_time) }}
-              </td>
-              <td class="py-2 px-4 max-w-xs truncate">
-                {{ log.question_text }}
-              </td>
-              <td class="py-2 px-4 text-center">
-                <span
-                  class="px-2 py-0.5 rounded text-xs font-medium"
-                  :class="ratingClass(log.rating)"
-                >
-                  {{ ratingLabel(log.rating) }}
-                </span>
-              </td>
-              <td class="py-2 px-4 text-center text-gray-500">
-                {{ log.used_time_sec }}s
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { studyApi } from '../api'
+import { useStudyStore } from '../stores/studyStore'
 
+const studyStore = useStudyStore()
+
+const loading = ref(false)
 const stats = ref({
   total_questions: 0,
   learned: 0,
@@ -125,16 +94,7 @@ const stats = ref({
   master_rate: 0
 })
 const categoryStats = ref([])
-const reviewHistory = ref([])
-
-const ratingLabel = (r) => ['', '忘记', '困难', '良好', '简单'][r] || r
-
-const ratingClass = (r) => ({
-  1: 'bg-red-100 text-red-800',
-  2: 'bg-orange-100 text-orange-800',
-  3: 'bg-blue-100 text-blue-800',
-  4: 'bg-green-100 text-green-800'
-}[r] || 'bg-gray-100')
+const sessionSummary = ref(null)
 
 const masteryColor = (cat) => {
   const rate = cat.total > 0 ? (cat.mastered / cat.total) : 0
@@ -143,28 +103,40 @@ const masteryColor = (cat) => {
   return 'text-danger'
 }
 
-const formatTime = (iso) => {
-  if (!iso) return ''
-  return new Date(iso).toLocaleString('zh-CN', {
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
-  })
+const accuracyColor = (acc) => {
+  if (acc >= 80) return 'text-success'
+  if (acc >= 50) return 'text-warning'
+  return 'text-danger'
 }
 
-onMounted(async () => {
+const loadAll = async () => {
+  loading.value = true
   try {
-    const [statsRes, catRes, historyRes] = await Promise.all([
+    const [statsRes, catRes, sessionRes] = await Promise.all([
       studyApi.stats(),
       studyApi.statsByCategory(),
-      studyApi.history({ limit: 20 })
+      studyApi.sessionSummary({ hours: 24 }).catch(() => ({ data: null }))
     ])
     stats.value = statsRes.data
     categoryStats.value = catRes.data
-    reviewHistory.value = historyRes.data
+    sessionSummary.value = sessionRes.data
+    // 同步缓存到store
+    studyStore.cachedStats = statsRes.data
   } catch (e) {
     console.error('加载统计失败:', e)
+  } finally {
+    loading.value = false
   }
+}
+
+// 监听store版本变化（答题后触发刷新）
+watch(() => studyStore.statsVersion, (newVal, oldVal) => {
+  if (newVal > 0 && newVal !== oldVal) {
+    loadAll()
+  }
+})
+
+onMounted(() => {
+  loadAll()
 })
 </script>

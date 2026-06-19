@@ -67,3 +67,4 @@ class ReviewRequest(BaseModel):
     question_id: int
     selected_answer: str  # User's selected answer (e.g. "A", "AB", "True", or text)
     used_time_sec: int = 0  # Time spent on this question in seconds
+    is_practice: bool = False  # If True, only log + tag, skip FSRS scheduling
