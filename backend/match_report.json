@@ -1,0 +1,1849 @@
+{
+  "timestamp": "2026-06-19T18:00:47.803541",
+  "total_unmatched": 255,
+  "total_matched": 184,
+  "total_updated": 184,
+  "still_unmatched": 71,
+  "matches": [
+    {
+      "question_id": 38,
+      "question_num": "5",
+      "answer": "C",
+      "explanation": "【4】本题考查六腑。既属于六腑，又属于奇恒之腑的是胆。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第四节藏象"
+    },
+    {
+      "question_id": 39,
+      "question_num": "6",
+      "answer": "D",
+      "explanation": "【6～7】本组题考查阴阳的治则治法。①“益火之源，以消阴翳”的治则又称\n为阴病治阳。故本题答案为D。②“壮水之主，以制阳光”的治则又称为阳病治阴。故本题\n答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 40,
+      "question_num": "7",
+      "answer": "C",
+      "explanation": "【6～7】本组题考查阴阳的治则治法。①“益火之源，以消阴翳”的治则又称\n为阴病治阳。故本题答案为D。②“壮水之主，以制阳光”的治则又称为阳病治阴。故本题\n答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 42,
+      "question_num": "2",
+      "answer": "B",
+      "explanation": "【2】本题考查症、证、病的区别。证是疾病过程中所处一定阶段的病机概括，\n包括病变的部位、原因、性质以及邪正关系，脾虚湿蕴属于证。鼻渊、淋证属于病，胸闷脘\n痞、脘腹胀满属于症。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第一节中医学的基本特点"
+    },
+    {
+      "question_id": 43,
+      "question_num": "3",
+      "answer": "C",
+      "explanation": "【3～4】本组题考查五行学说在疾病治疗中的应用。①脾属土，肾阳属火（命\n门之火）\n，脾肾阳虚证宜选用的治法是益火补土法。故本题答案为C。②心属火，肾阴属水，\n心肾不交证宜选用的治法是泻火补水，又称泻南补北。故本题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 49,
+      "question_num": "3",
+      "answer": "E",
+      "explanation": "【3】本题考查症、证、病的区别。病是疾病的简称。湿疮属于病，恶寒、胸闷、\n鼻痒喷嚏属于症，风寒犯肺属于证。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第一节中医学的基本特点"
+    },
+    {
+      "question_id": 50,
+      "question_num": "4",
+      "answer": "E",
+      "explanation": "【3～4】本组题考查五行学说在疾病治疗中的应用。①脾属土，肾阳属火（命\n门之火）\n，脾肾阳虚证宜选用的治法是益火补土法。故本题答案为C。②心属火，肾阴属水，\n心肾不交证宜选用的治法是泻火补水，又称泻南补北。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 51,
+      "question_num": "5",
+      "answer": "B",
+      "explanation": "【5～6】本组题考查五行学说在疾病治疗中的应用。①肺属金，肾阴属水，肺\n肾阴虚证宜选用的治法是金水相生。故本题答案为B。②肺属金，脾属土，肺脾气虚证宜选\n用的治法是培土生金。故本题答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 52,
+      "question_num": "6",
+      "answer": "D",
+      "explanation": "【6～7】本组题考查阴阳的治则治法。①“益火之源，以消阴翳”的治则又称\n为阴病治阳。故本题答案为D。②“壮水之主，以制阳光”的治则又称为阳病治阴。故本题\n答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 53,
+      "question_num": "7",
+      "answer": "C",
+      "explanation": "【6～7】本组题考查阴阳的治则治法。①“益火之源，以消阴翳”的治则又称\n为阴病治阳。故本题答案为D。②“壮水之主，以制阳光”的治则又称为阳病治阴。故本题\n答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 54,
+      "question_num": "8",
+      "answer": "D",
+      "explanation": "【7～8】本组题考查五行的生克乘侮。①心属火，肝属木，木能生火，即木为\n母，火为子，病位由心传变至肝为子病及母。故本题答案为B。②肝属木，脾胃属土，木能\n克土，病位由肝传变至脾为相乘传变。故本题答案为D。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 55,
+      "question_num": "9",
+      "answer": "A",
+      "explanation": "【9～10】本组题考查五行的生克乘侮。①肾阴属水，肝属木，水能生木，即水\n为母，木为子，病位由肾传变肝，为母病及子。故本题答案为A。②肝属木，肺属金，金能\n克木，病位由肝传变至肺，为相侮传变。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 56,
+      "question_num": "10",
+      "answer": "E",
+      "explanation": "【9～10】本组题考查五行的生克乘侮。①肾阴属水，肝属木，水能生木，即水\n为母，木为子，病位由肾传变肝，为母病及子。故本题答案为A。②肝属木，肺属金，金能\n克木，病位由肝传变至肺，为相侮传变。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 57,
+      "question_num": "11",
+      "answer": "E",
+      "explanation": "【11～12】本组题考查五行在疾病治疗中的应用。①肾阴属水，肝属木；肾阴\n亏虚，肝阳偏亢宜选用的治法是滋水涵木。故本题答案为E。②脾属土，肾属水；脾土虚衰\n不能制约肾水宜选用的治法是培土制水，故本题答案为A。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 58,
+      "question_num": "12",
+      "answer": "A",
+      "explanation": "【11～12】本组题考查五行在疾病治疗中的应用。①肾阴属水，肝属木；肾阴\n亏虚，肝阳偏亢宜选用的治法是滋水涵木。故本题答案为E。②脾属土，肾属水；脾土虚衰\n不能制约肾水宜选用的治法是培土制水，故本题答案为A。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第三节五行学说"
+    },
+    {
+      "question_id": 59,
+      "question_num": "13",
+      "answer": "E",
+      "explanation": "【12～13】本组题考查六腑。①三焦能够主持诸气，总司人体的气机和气化，\n为元气运行的通路和水液运行的通道。故本题答案为C。②小肠在吸收水谷精微的同时，也\n吸收大量水液，泌别清浊。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第四节藏象"
+    },
+    {
+      "question_id": 60,
+      "question_num": "1",
+      "answer": "C",
+      "explanation": "【1】本题考查症、证、病的区别。\n“证”是疾病过程中所处一定阶段的病机概\n括，包括病变的部位、原因、性质以及邪正关系，指机体对致病因素做出的反应状态，是对\n疾病当前本质所做的结论。证反映的重点是当前阶段的主要矛盾。故本题答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第一节中医学的基本特点"
+    },
+    {
+      "question_id": 61,
+      "question_num": "2",
+      "answer": "B",
+      "explanation": "【2】本题考查症、证、病的区别。证是疾病过程中所处一定阶段的病机概括，\n包括病变的部位、原因、性质以及邪正关系，脾虚湿蕴属于证。鼻渊、淋证属于病，胸闷脘\n痞、脘腹胀满属于症。故本题答案为B。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第一节中医学的基本特点"
+    },
+    {
+      "question_id": 62,
+      "question_num": "3",
+      "answer": "E",
+      "explanation": "【3】本题考查症、证、病的区别。病是疾病的简称。湿疮属于病，恶寒、胸闷、\n鼻痒喷嚏属于症，风寒犯肺属于证。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第一节中医学的基本特点"
+    },
+    {
+      "question_id": 63,
+      "question_num": "4",
+      "answer": "C",
+      "explanation": "【4】本题考查阴阳的治则治法。对阴阳偏衰的治疗，明·张景岳根据阴阳互根\n的原理，提出了阴中求阳、阳中求阴的治法，\n“阴中求阳”即在用补阳药时，可佐用补阴药；\n以发挥其互根互用的生化作用。故本题答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 64,
+      "question_num": "5",
+      "answer": "C",
+      "explanation": "【4】本题考查六腑。既属于六腑，又属于奇恒之腑的是胆。故本题答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第四节藏象"
+    },
+    {
+      "question_id": 65,
+      "question_num": "6",
+      "answer": "A",
+      "explanation": "【5】本题考查阴阳的治则治法。偏盛为实证，阳偏盛为热证，因此患者为实热\n证。故本题答案为A。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 66,
+      "question_num": "7",
+      "answer": "A",
+      "explanation": "【5】本题考查阴阳的治则治法。偏盛为实证，阳偏盛为热证，因此患者为实热\n证。故本题答案为A。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 67,
+      "question_num": "8",
+      "answer": "C",
+      "explanation": "【6】本题考查气的分类与分布。营气的生理功能有：①营养人体；②化生血\n液。故本题答案为C。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第五节气血津液"
+    },
+    {
+      "question_id": 68,
+      "question_num": "9",
+      "answer": "E",
+      "explanation": "【7】\n本题考查督脉、\n任脉、\n冲脉、\n带脉的基本功能。\n带脉的基本功能有\n：\n①约束纵行\n诸经；②主司妇女的带下。故本题答案为E。",
+      "confidence": 0.8111111111111111,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第六节经络"
+    },
+    {
+      "question_id": 69,
+      "question_num": "2",
+      "answer": "B",
+      "explanation": "【2】本题考查疼痛的性质特点及临床意义。痛有灼热感而喜凉为灼痛，多由阴\n虚阳热亢盛或火邪窜络所致，常见于胃脘部或两肋。故本题答案为B。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 70,
+      "question_num": "1",
+      "answer": "D",
+      "explanation": "【1】本题考查望神。烦躁不宁，登高而歌，呼号怒骂，打人毁物等，多属痰火\n扰心的狂病，属于神乱。故本题答案为D。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 71,
+      "question_num": "1",
+      "answer": "D",
+      "explanation": "【1】本题考查望神。烦躁不宁，登高而歌，呼号怒骂，打人毁物等，多属痰火\n扰心的狂病，属于神乱。故本题答案为D。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 72,
+      "question_num": "2",
+      "answer": "B",
+      "explanation": "【2】本题考查疼痛的性质特点及临床意义。痛有灼热感而喜凉为灼痛，多由阴\n虚阳热亢盛或火邪窜络所致，常见于胃脘部或两肋。故本题答案为B。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 73,
+      "question_num": "3",
+      "answer": "D",
+      "explanation": "【3】本题考查望舌苔。腻苔：舌面上覆盖着一层浊而滑腻的苔垢，颗粒细腻而\n致密，刮之难去，多见于湿浊、痰饮、食积等阳气被阴邪所抑的病变。故本题答案为D。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 74,
+      "question_num": "4",
+      "answer": "C",
+      "explanation": "【4】本题考查望神。目光晦暗、瞳仁呆滞、呼吸气微、反应迟钝、精神萎靡，\n甚至循衣摸床、撮空理线、神识昏迷，或者猝倒而目闭口开、手撒、遗尿等，均称为“失神”\n或“无神”\n。故本题答案为C。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 75,
+      "question_num": "1",
+      "answer": "D",
+      "explanation": "【1】本题考查望神。烦躁不宁，登高而歌，呼号怒骂，打人毁物等，多属痰火\n扰心的狂病，属于神乱。故本题答案为D。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 76,
+      "question_num": "1",
+      "answer": "D",
+      "explanation": "【1】本题考查望神。烦躁不宁，登高而歌，呼号怒骂，打人毁物等，多属痰火\n扰心的狂病，属于神乱。故本题答案为D。",
+      "confidence": 0.7666666666666666,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第三章中医诊断基础",
+      "matched_section": "第二节四诊"
+    },
+    {
+      "question_id": 130,
+      "question_num": "5",
+      "answer": "B",
+      "explanation": "【5】本题考查感冒的基础方剂。根据患者临床表现，诊断为感冒，辨证为体虚\n感冒，宜选用的基础方剂是参苏饮加减。故本题答案为B。",
+      "confidence": 0.72,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 131,
+      "question_num": "6",
+      "answer": "B",
+      "explanation": "【6】本题考查感冒的基础方剂。根据患者临床表现，诊断为感冒，辨证为风热\n感冒，宜选用的基础方剂是银翘散加减。故本题答案为B。",
+      "confidence": 0.72,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 132,
+      "question_num": "7",
+      "answer": "D",
+      "explanation": "【7】\n本题考查咳嗽的临床表现。\n咳嗽属风寒袭肺证的主要临床表现是咳嗽声重，\n痰稀色白。故本题答案为D。",
+      "confidence": 0.72,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 133,
+      "question_num": "8",
+      "answer": "D",
+      "explanation": "【8】本题考查咳嗽的中成药。根据患者临床表现，诊断为咳嗽，辨证为痰湿蕴\n肺证，宜选用的中成药是二陈丸、橘贝半夏颗粒、蛇胆陈皮胶囊。故本题答案为D。",
+      "confidence": 0.72,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 134,
+      "question_num": "9",
+      "answer": "A",
+      "explanation": "【9】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为风热感\n\n冒。\n宜选用的中成药是银翘解毒丸、\n双黄连口服液、\n桑菊感冒片、\n感冒清胶囊、\n柴银口服液。\n故本题答案为A。",
+      "confidence": 0.72,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 175,
+      "question_num": "10",
+      "answer": "D",
+      "explanation": "【10】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为风寒\n感冒，\n宜选用的中成药是荆防颗粒、\n九味羌活丸、\n葛根汤颗粒、\n感冒软胶囊、\n感冒清热颗粒。\n故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 176,
+      "question_num": "11",
+      "answer": "C",
+      "explanation": "【11】本题考查肺胀的辨证。根据患者临床表现，诊断为肺胀，辨证为肺肾气\n虚证。故本题答案为C。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 177,
+      "question_num": "12",
+      "answer": "B",
+      "explanation": "【12】本题考查感冒的治法。感冒属时行感冒，宜选用的治法是清热解毒，凉\n血泻火。故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 178,
+      "question_num": "13",
+      "answer": "D",
+      "explanation": "【13】本题考查咳嗽的治法。根据患者临床表现，诊断为咳嗽，辨证为痰湿蕴\n肺证，宜选用的治法是健脾燥湿，化痰止咳。故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 179,
+      "question_num": "14",
+      "answer": "A",
+      "explanation": "【14】本题考查肺胀的基础方剂。根据患者临床表现，诊断为肺胀，辨证为痰\n热郁肺证，宜选用的基础方剂是越婢加半夏汤或桑白皮汤加减。故本题答案为A。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 180,
+      "question_num": "15",
+      "answer": "B",
+      "explanation": "【15】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为暑湿\n感冒，宜选用的中成药是藿香正气水、保济丸。故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 181,
+      "question_num": "16",
+      "answer": "E",
+      "explanation": "【16】本题考查咳嗽的辨证。根据患者临床表现，诊断为咳嗽，辨证为肺阴亏\n耗证。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 182,
+      "question_num": "17",
+      "answer": "A",
+      "explanation": "【17】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为时行\n感冒，宜选用的中成药是清瘟解毒片、连花清瘟胶囊、维C 银翘片、银翘伤风胶囊。故本题\n答案为A。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 183,
+      "question_num": "18",
+      "answer": "D",
+      "explanation": "【18】本题考查感冒的治法。根据患者临床表现，诊断为感冒，辨证为暑湿感\n冒证，宜选用的治法是清暑化湿，化浊解表。故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 184,
+      "question_num": "19",
+      "answer": "A",
+      "explanation": "【19】本题考查参考肺胀辨证论治的西医疾病。西医学中慢性阻塞性肺疾病、\n慢性肺源性心脏病等，可参考肺胀辨证论治。故本题答案为A。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 185,
+      "question_num": "20",
+      "answer": "D",
+      "explanation": "【20～22】本组题考查不寐的辨证。①根据患者临床表现，诊断为不寐，辨证\n为肝火扰心证。故本题答案为D。②根据患者临床表现，诊断为不寐，辨证为心胆气虚证。\n故本题答案为C。③根据患者临床表现，诊断为不寐，辨证为痰热扰心证。故本题答案为\nA。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 186,
+      "question_num": "21",
+      "answer": "C",
+      "explanation": "【20～22】本组题考查不寐的辨证。①根据患者临床表现，诊断为不寐，辨证\n为肝火扰心证。故本题答案为D。②根据患者临床表现，诊断为不寐，辨证为心胆气虚证。\n故本题答案为C。③根据患者临床表现，诊断为不寐，辨证为痰热扰心证。故本题答案为\nA。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 187,
+      "question_num": "22",
+      "answer": "A",
+      "explanation": "【20～22】本组题考查不寐的辨证。①根据患者临床表现，诊断为不寐，辨证\n为肝火扰心证。故本题答案为D。②根据患者临床表现，诊断为不寐，辨证为心胆气虚证。\n故本题答案为C。③根据患者临床表现，诊断为不寐，辨证为痰热扰心证。故本题答案为\nA。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 188,
+      "question_num": "23",
+      "answer": "E",
+      "explanation": "【23～24】本组题考查胸痹的基础方剂。①根据患者临床表现，诊断为胸痹，\n辨证为痰浊闭阻证，\n宜选用的基础方剂是瓜蒌薤白半夏汤合涤痰汤加减。\n故本题答案为E。\n②\n根据患者临床表现，\n诊断为胸痹，\n辨证为气虚血瘀证，\n宜选用的基础方剂是补阳还五汤加减。\n故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 189,
+      "question_num": "24",
+      "answer": "B",
+      "explanation": "【23～24】本组题考查胸痹的基础方剂。①根据患者临床表现，诊断为胸痹，\n辨证为痰浊闭阻证，\n宜选用的基础方剂是瓜蒌薤白半夏汤合涤痰汤加减。\n故本题答案为E。\n②\n根据患者临床表现，\n诊断为胸痹，\n辨证为气虚血瘀证，\n宜选用的基础方剂是补阳还五汤加减。\n故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 190,
+      "question_num": "25",
+      "answer": "C",
+      "explanation": "【25～26】本组题考查感冒的基础方剂。①感冒属风寒感冒，宜选用的基础方\n剂是荆防败毒散加减。故本题答案为C。②感冒属时行感冒，宜选用的基础方剂是清瘟败毒\n饮加减。故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 191,
+      "question_num": "26",
+      "answer": "B",
+      "explanation": "【25～26】本组题考查感冒的基础方剂。①感冒属风寒感冒，宜选用的基础方\n剂是荆防败毒散加减。故本题答案为C。②感冒属时行感冒，宜选用的基础方剂是清瘟败毒\n饮加减。故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 192,
+      "question_num": "27",
+      "answer": "A",
+      "explanation": "【27～28】\n本组题考查喘证的临床特点。\n①喘证痰浊阻肺证的临床特点是喘满胸\n闷，痰多黏白，呕恶纳呆。故本题答案为A。②喘证风寒闭肺证的临床特点是喘息咳逆，痰\n白稀薄，恶寒无汗。故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 193,
+      "question_num": "28",
+      "answer": "D",
+      "explanation": "【27～28】\n本组题考查喘证的临床特点。\n①喘证痰浊阻肺证的临床特点是喘满胸\n闷，痰多黏白，呕恶纳呆。故本题答案为A。②喘证风寒闭肺证的临床特点是喘息咳逆，痰\n白稀薄，恶寒无汗。故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 194,
+      "question_num": "29",
+      "answer": "C",
+      "explanation": "【29～30】本组题考查喘证的基础方剂。①根据患者临床表现，诊断为喘证，\n辨证为痰浊阻肺证，\n宜选用的基础方剂是二陈汤合三子养亲汤加减。\n故本题答案为C。\n②根据\n患者临床表现，\n诊断为喘证，\n辨证为风寒闭肺证，\n宜选用的基础方剂是麻黄汤合华盖散加减。\n故本题答案为A。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 195,
+      "question_num": "30",
+      "answer": "A",
+      "explanation": "【29～30】本组题考查喘证的基础方剂。①根据患者临床表现，诊断为喘证，\n辨证为痰浊阻肺证，\n宜选用的基础方剂是二陈汤合三子养亲汤加减。\n故本题答案为C。\n②根据\n患者临床表现，\n诊断为喘证，\n辨证为风寒闭肺证，\n宜选用的基础方剂是麻黄汤合华盖散加减。\n故本题答案为A。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 196,
+      "question_num": "31",
+      "answer": "E",
+      "explanation": "【31～32】本组题考查肺胀的辨证。①根据患者临床表现，诊断为肺胀，辨证\n为痰浊阻肺证。故本题答案为E。②根据患者临床表现，诊断为肺胀，辨证为痰热郁肺证。\n故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 197,
+      "question_num": "32",
+      "answer": "D",
+      "explanation": "【31～32】本组题考查肺胀的辨证。①根据患者临床表现，诊断为肺胀，辨证\n为痰浊阻肺证。故本题答案为E。②根据患者临床表现，诊断为肺胀，辨证为痰热郁肺证。\n故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 198,
+      "question_num": "33",
+      "answer": "C",
+      "explanation": "【33～34】本组题考查咳嗽的基础方剂。①根据患者临床表现，诊断为咳嗽，\n辨证为风燥伤肺证，宜选用的基础方剂是桑杏汤加减。故本题答案为C。②根据患者临床表\n现，诊断为咳嗽，辨证为肺阴亏耗证，宜选用的基础方剂是沙参麦冬汤加减。故本题答案为\nB。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 199,
+      "question_num": "34",
+      "answer": "B",
+      "explanation": "【33～34】本组题考查咳嗽的基础方剂。①根据患者临床表现，诊断为咳嗽，\n辨证为风燥伤肺证，宜选用的基础方剂是桑杏汤加减。故本题答案为C。②根据患者临床表\n现，诊断为咳嗽，辨证为肺阴亏耗证，宜选用的基础方剂是沙参麦冬汤加减。故本题答案为\nB。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 200,
+      "question_num": "35",
+      "answer": "C",
+      "explanation": "【35～36】本组题考查感冒的基础方剂。①感冒属暑湿感冒，宜选用的基础方\n剂是新加香薷饮加减。故本题答案为C。②感冒属体虚感冒，宜选用的基础方剂是参苏饮加\n减。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 201,
+      "question_num": "36",
+      "answer": "E",
+      "explanation": "【35～36】本组题考查感冒的基础方剂。①感冒属暑湿感冒，宜选用的基础方\n剂是新加香薷饮加减。故本题答案为C。②感冒属体虚感冒，宜选用的基础方剂是参苏饮加\n减。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 202,
+      "question_num": "37",
+      "answer": "C",
+      "explanation": "【37～38】本组题考查喘证的辨证。①根据患者临床表现，诊断为喘证，辨证\n为风寒闭肺证。故本题答案为C。②根据患者临床表现，诊断为喘证，辨证为肾不纳气证。\n故本题答案为B。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 203,
+      "question_num": "1",
+      "answer": "E",
+      "explanation": "【1】本题考查咳嗽的辨证。根据患者临床表现，诊断为咳嗽，辨证为风热犯肺\n证。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 204,
+      "question_num": "2",
+      "answer": "A",
+      "explanation": "【2】本题考查咳嗽的辨证。根据患者临床表现，诊断为咳嗽，辨证为痰湿蕴肺\n证。故本题答案为A。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 205,
+      "question_num": "3",
+      "answer": "D",
+      "explanation": "【3】\n本题考查感冒的中成药。\n感冒属风热感冒，\n宜选用的中成药是银翘解毒丸、\n双黄连口服液、桑菊感冒片、柴银口服液、感冒清胶囊。故本题答案为D。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 206,
+      "question_num": "3",
+      "answer": "D",
+      "explanation": "【3】\n本题考查感冒的中成药。\n感冒属风热感冒，\n宜选用的中成药是银翘解毒丸、\n双黄连口服液、桑菊感冒片、柴银口服液、感冒清胶囊。故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 207,
+      "question_num": "4",
+      "answer": "D",
+      "explanation": "【4】本题考查咳嗽的中成药。根据患者临床表现，诊断为咳嗽，辨证为风寒犯\n肺证，宜选用的中成药是杏苏止咳糖浆、三拗片、通宣理肺丸、风寒咳嗽丸。故本题答案为\nD。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 211,
+      "question_num": "34",
+      "answer": "D",
+      "explanation": "【34～36】本组题考查泄泻的中成药。①根据患者临床表现，诊断为泄泻，辨\n证为湿热伤中证，宜选用的中成药是痢必灵片、泻痢消胶囊、香连片、连蒲双清片、白蒲黄\n片、肠康片。故本题答案为D。②根据患者临床表现，诊断为泄泻，辨证为食滞肠胃证，宜\n选用的中成药是加味保和丸、\n枳实导滞丸、\n和中理脾丸。\n故本题答案为A。\n③根据患者临床表\n现，诊断为泄泻，辨证为肾阳虚衰证，宜选用的中成药是桂附理中丸、四神丸、肠胃宁片、\n固本益肠片。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 212,
+      "question_num": "35",
+      "answer": "A",
+      "explanation": "【34～36】本组题考查泄泻的中成药。①根据患者临床表现，诊断为泄泻，辨\n证为湿热伤中证，宜选用的中成药是痢必灵片、泻痢消胶囊、香连片、连蒲双清片、白蒲黄\n片、肠康片。故本题答案为D。②根据患者临床表现，诊断为泄泻，辨证为食滞肠胃证，宜\n选用的中成药是加味保和丸、\n枳实导滞丸、\n和中理脾丸。\n故本题答案为A。\n③根据患者临床表\n现，诊断为泄泻，辨证为肾阳虚衰证，宜选用的中成药是桂附理中丸、四神丸、肠胃宁片、\n固本益肠片。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 213,
+      "question_num": "36",
+      "answer": "E",
+      "explanation": "【34～36】本组题考查泄泻的中成药。①根据患者临床表现，诊断为泄泻，辨\n证为湿热伤中证，宜选用的中成药是痢必灵片、泻痢消胶囊、香连片、连蒲双清片、白蒲黄\n片、肠康片。故本题答案为D。②根据患者临床表现，诊断为泄泻，辨证为食滞肠胃证，宜\n选用的中成药是加味保和丸、\n枳实导滞丸、\n和中理脾丸。\n故本题答案为A。\n③根据患者临床表\n现，诊断为泄泻，辨证为肾阳虚衰证，宜选用的中成药是桂附理中丸、四神丸、肠胃宁片、\n固本益肠片。故本题答案为E。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 214,
+      "question_num": "37",
+      "answer": "D",
+      "explanation": "【37～38】①本题考查新复方芦荟胶囊的临床应用。新复方芦荟胶囊临床用于\n心肝火旺所致便秘。症见便秘，数日不行，烦躁，泛酸嘈杂，口干口苦，舌红苔黄，脉弦滑。\n故本题答案为D。\n②本题考查苁蓉通便口服液的临床应用。\n苁蓉通便口服液临床用于气伤血\n亏，阴阳两虚所致便秘。症见大便干结，心悸气短，周身倦怠\n；\n中老年人、产后、虚性便秘\n及习惯性便秘见上述证候者。故本题答案为C。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 215,
+      "question_num": "38",
+      "answer": "C",
+      "explanation": "【37～38】①本题考查新复方芦荟胶囊的临床应用。新复方芦荟胶囊临床用于\n心肝火旺所致便秘。症见便秘，数日不行，烦躁，泛酸嘈杂，口干口苦，舌红苔黄，脉弦滑。\n故本题答案为D。\n②本题考查苁蓉通便口服液的临床应用。\n苁蓉通便口服液临床用于气伤血\n亏，阴阳两虚所致便秘。症见大便干结，心悸气短，周身倦怠\n；\n中老年人、产后、虚性便秘\n及习惯性便秘见上述证候者。故本题答案为C。",
+      "confidence": 0.9333333333333333,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 216,
+      "question_num": "1",
+      "answer": "B",
+      "explanation": "【1】本题考查眩晕的辨证。根据患者临床表现，诊断为眩晕，辨证为气血亏虚\n证。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 217,
+      "question_num": "2",
+      "answer": "E",
+      "explanation": "【2】本题考查头痛的治法。根据患者临床表现，诊断为头痛，辨证为肝阳头痛，\n宜选用的治法是平肝潜阳。故本题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 218,
+      "question_num": "3",
+      "answer": "B",
+      "explanation": "【3】本题考查天麻首乌片的临床应用。天麻首乌片临床用于肝肾阴虚，肝阳上\n扰所致头痛。症见头痛，眩晕，耳鸣，心烦易怒，腰膝酸软，神疲乏力，脉沉细或弦\n；\n亦用\n于原发性高血压、偏头痛、紧张性头痛者。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 219,
+      "question_num": "4",
+      "answer": "A",
+      "explanation": "【4】本题考查眩晕的基础方剂。根据患者临床表现，诊断为眩晕，辨证为痰湿\n中阻证，宜选用的基础方剂是半夏白术天麻汤加减。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 220,
+      "question_num": "5",
+      "answer": "C",
+      "explanation": "【5】本题考查头痛的基础方剂。根据患者临床表现，诊断为头痛，辨证为血虚\n头痛，宜选用的基础方剂是加味四物汤加减。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 221,
+      "question_num": "6",
+      "answer": "C",
+      "explanation": "【6】本题考查眩晕的辨证。根据患者临床表现，诊断为眩晕，辨证为肾精不足\n证。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 222,
+      "question_num": "7",
+      "answer": "B",
+      "explanation": "【7】本题考查头痛的辨证。根据患者临床表现，诊断为头痛，辨证为瘀血头痛。\n故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 223,
+      "question_num": "8",
+      "answer": "D",
+      "explanation": "【8】本题考查头痛的中成药。根据患者临床表现，诊断为头痛，辨证为风热头\n痛，宜选用的中成药是清眩片、芎菊上清丸。故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 224,
+      "question_num": "9",
+      "answer": "C",
+      "explanation": "【9】本题考查眩晕的辨证。根据患者临床表现，诊断为眩晕，辨证为肝阳上亢\n证。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 225,
+      "question_num": "10",
+      "answer": "D",
+      "explanation": "【10】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为风寒\n感冒，\n宜选用的中成药是荆防颗粒、\n九味羌活丸、\n葛根汤颗粒、\n感冒软胶囊、\n感冒清热颗粒。\n故本题答案为D。",
+      "confidence": 0.7142857142857143,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 226,
+      "question_num": "11",
+      "answer": "A",
+      "explanation": "【11～13】本组题考查中风的治法。①中风属风痰入络者，宜选用的治法是祛\n风化痰通络。\n故本题答案为A。\n②中风属风阳上扰者，\n宜选用的治法是平肝潜阳，\n活血通络。\n故本题答案为C。③中风属气虚血瘀者，宜选用的治法是益气养血，化瘀通络。故本题答案\n为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 227,
+      "question_num": "12",
+      "answer": "C",
+      "explanation": "【11～13】本组题考查中风的治法。①中风属风痰入络者，宜选用的治法是祛\n风化痰通络。\n故本题答案为A。\n②中风属风阳上扰者，\n宜选用的治法是平肝潜阳，\n活血通络。\n故本题答案为C。③中风属气虚血瘀者，宜选用的治法是益气养血，化瘀通络。故本题答案\n为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 228,
+      "question_num": "14",
+      "answer": "A",
+      "explanation": "【14～15】①本题考查头痛的中成药。根据患者临床表现，诊断为头痛，辨证\n为血虚头痛，宜选用的中成药是益血生胶囊、养血清脑颗粒、天麻头痛片。故本题答案为\nA。⑤本题考查眩晕的中成药。根据患者临床表现，诊断为眩晕，辨证为肝阳上亢证，宜选\n用的中成药是天麻钩藤颗粒、复方罗布麻颗粒、松龄血脉康胶囊。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 229,
+      "question_num": "15",
+      "answer": "B",
+      "explanation": "【14～15】①本题考查头痛的中成药。根据患者临床表现，诊断为头痛，辨证\n为血虚头痛，宜选用的中成药是益血生胶囊、养血清脑颗粒、天麻头痛片。故本题答案为\nA。⑤本题考查眩晕的中成药。根据患者临床表现，诊断为眩晕，辨证为肝阳上亢证，宜选\n用的中成药是天麻钩藤颗粒、复方罗布麻颗粒、松龄血脉康胶囊。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 230,
+      "question_num": "16",
+      "answer": "D",
+      "explanation": "【16～18】本组题考查中风的基础方剂。①根据患者临床表现，诊断为中风，\n辨证为风痰入络证，\n宜选用的基础方剂是真方白丸子加减。\n故本题答案为D。\n②根据患者临床\n表现，诊断为中风，辨证为风阳上扰证，宜选用的基础方剂是天麻钩藤饮加减。故本题答案\n为E。③根据患者临床表现，诊断为中风，辨证为气虚血瘀证，宜选用的基础方剂是补阳还\n五汤加减。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 231,
+      "question_num": "17",
+      "answer": "E",
+      "explanation": "【16～18】本组题考查中风的基础方剂。①根据患者临床表现，诊断为中风，\n辨证为风痰入络证，\n宜选用的基础方剂是真方白丸子加减。\n故本题答案为D。\n②根据患者临床\n表现，诊断为中风，辨证为风阳上扰证，宜选用的基础方剂是天麻钩藤饮加减。故本题答案\n为E。③根据患者临床表现，诊断为中风，辨证为气虚血瘀证，宜选用的基础方剂是补阳还\n五汤加减。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 232,
+      "question_num": "18",
+      "answer": "B",
+      "explanation": "【16～18】本组题考查中风的基础方剂。①根据患者临床表现，诊断为中风，\n辨证为风痰入络证，\n宜选用的基础方剂是真方白丸子加减。\n故本题答案为D。\n②根据患者临床\n表现，诊断为中风，辨证为风阳上扰证，宜选用的基础方剂是天麻钩藤饮加减。故本题答案\n为E。③根据患者临床表现，诊断为中风，辨证为气虚血瘀证，宜选用的基础方剂是补阳还\n五汤加减。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 233,
+      "question_num": "19",
+      "answer": "B",
+      "explanation": "【19～21】本组题考查眩晕的中成药。①眩晕属肾精不足证，宜选用的中成药\n是左归丸、古汉养生精口服液。故本题答案为B。②眩晕属气血亏虚证，宜选用的中成药是\n归脾丸、参茸阿胶、益中生血片。故本题答案为C。③眩晕属痰湿中阻证，宜选用的中成药\n是眩晕宁颗粒、晕复静片、半夏天麻丸。故本题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 234,
+      "question_num": "20",
+      "answer": "C",
+      "explanation": "【19～21】本组题考查眩晕的中成药。①眩晕属肾精不足证，宜选用的中成药\n是左归丸、古汉养生精口服液。故本题答案为B。②眩晕属气血亏虚证，宜选用的中成药是\n归脾丸、参茸阿胶、益中生血片。故本题答案为C。③眩晕属痰湿中阻证，宜选用的中成药\n是眩晕宁颗粒、晕复静片、半夏天麻丸。故本题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 235,
+      "question_num": "21",
+      "answer": "E",
+      "explanation": "【19～21】本组题考查眩晕的中成药。①眩晕属肾精不足证，宜选用的中成药\n是左归丸、古汉养生精口服液。故本题答案为B。②眩晕属气血亏虚证，宜选用的中成药是\n归脾丸、参茸阿胶、益中生血片。故本题答案为C。③眩晕属痰湿中阻证，宜选用的中成药\n是眩晕宁颗粒、晕复静片、半夏天麻丸。故本题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 236,
+      "question_num": "22",
+      "answer": "E",
+      "explanation": "【22～24】本组题考查头痛的中成药。①根据患者临床表现，诊断为头痛，辨\n证为风寒头痛，宜选用的中成药是天麻头痛片、川芎茶调颗粒、都梁软胶囊。故本题答案为\nE。②根据患者临床表现，诊断为头痛，辨证为瘀血头痛，宜选用的中成药是丹七片、通天\n口服液、血府逐瘀口服液、逐瘀通脉胶囊。故本题答案为D。③根据患者临床表现，诊断为\n头痛，辨证为风热头痛，宜选用的中成药是清眩片、芎菊上清丸。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 237,
+      "question_num": "23",
+      "answer": "D",
+      "explanation": "【22～24】本组题考查头痛的中成药。①根据患者临床表现，诊断为头痛，辨\n证为风寒头痛，宜选用的中成药是天麻头痛片、川芎茶调颗粒、都梁软胶囊。故本题答案为\nE。②根据患者临床表现，诊断为头痛，辨证为瘀血头痛，宜选用的中成药是丹七片、通天\n口服液、血府逐瘀口服液、逐瘀通脉胶囊。故本题答案为D。③根据患者临床表现，诊断为\n头痛，辨证为风热头痛，宜选用的中成药是清眩片、芎菊上清丸。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 238,
+      "question_num": "24",
+      "answer": "B",
+      "explanation": "【22～24】本组题考查头痛的中成药。①根据患者临床表现，诊断为头痛，辨\n证为风寒头痛，宜选用的中成药是天麻头痛片、川芎茶调颗粒、都梁软胶囊。故本题答案为\nE。②根据患者临床表现，诊断为头痛，辨证为瘀血头痛，宜选用的中成药是丹七片、通天\n口服液、血府逐瘀口服液、逐瘀通脉胶囊。故本题答案为D。③根据患者临床表现，诊断为\n头痛，辨证为风热头痛，宜选用的中成药是清眩片、芎菊上清丸。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 239,
+      "question_num": "25",
+      "answer": "E",
+      "explanation": "【25～27】本组题考查眩晕的治法。①根据患者临床表现，诊断为眩晕，辨证\n为肝阳上亢证，宜选用的治法是平肝潜阳，滋养肝肾。故本题答案为E。②根据患者临床表\n现，诊断为眩晕，辨证为气血亏虚证，宜选用的治法是补益气血，调养心脾。故本题答案为\nC。③根据患者临床表现，诊断为眩晕，辨证为肾精不足证，宜选用的治法是滋养肝肾，益\n精填髓。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 240,
+      "question_num": "26",
+      "answer": "C",
+      "explanation": "【25～27】本组题考查眩晕的治法。①根据患者临床表现，诊断为眩晕，辨证\n为肝阳上亢证，宜选用的治法是平肝潜阳，滋养肝肾。故本题答案为E。②根据患者临床表\n现，诊断为眩晕，辨证为气血亏虚证，宜选用的治法是补益气血，调养心脾。故本题答案为\nC。③根据患者临床表现，诊断为眩晕，辨证为肾精不足证，宜选用的治法是滋养肝肾，益\n精填髓。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 241,
+      "question_num": "27",
+      "answer": "A",
+      "explanation": "【25～27】本组题考查眩晕的治法。①根据患者临床表现，诊断为眩晕，辨证\n为肝阳上亢证，宜选用的治法是平肝潜阳，滋养肝肾。故本题答案为E。②根据患者临床表\n现，诊断为眩晕，辨证为气血亏虚证，宜选用的治法是补益气血，调养心脾。故本题答案为\nC。③根据患者临床表现，诊断为眩晕，辨证为肾精不足证，宜选用的治法是滋养肝肾，益\n精填髓。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 242,
+      "question_num": "28",
+      "answer": "A",
+      "explanation": "【28～30】本组题考查中风的中成药。①中风属风痰入络证，宜选用的中成药\n是大活络丸、豨蛭络达胶囊、再造丸。故本题答案为A。②中风属风阳上扰证，宜选用的中\n成药是松龄血脉康胶囊、全天麻胶囊、心脑静片。故本题答案为B。③中风属气虚血瘀证，\n宜选用的中成药是消栓胶囊、复方地龙胶囊、脉络通颗粒、软脉灵口服液、脑安颗粒。故本\n题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 243,
+      "question_num": "29",
+      "answer": "B",
+      "explanation": "【28～30】本组题考查中风的中成药。①中风属风痰入络证，宜选用的中成药\n是大活络丸、豨蛭络达胶囊、再造丸。故本题答案为A。②中风属风阳上扰证，宜选用的中\n成药是松龄血脉康胶囊、全天麻胶囊、心脑静片。故本题答案为B。③中风属气虚血瘀证，\n宜选用的中成药是消栓胶囊、复方地龙胶囊、脉络通颗粒、软脉灵口服液、脑安颗粒。故本\n题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 244,
+      "question_num": "30",
+      "answer": "E",
+      "explanation": "【28～30】本组题考查中风的中成药。①中风属风痰入络证，宜选用的中成药\n是大活络丸、豨蛭络达胶囊、再造丸。故本题答案为A。②中风属风阳上扰证，宜选用的中\n成药是松龄血脉康胶囊、全天麻胶囊、心脑静片。故本题答案为B。③中风属气虚血瘀证，\n宜选用的中成药是消栓胶囊、复方地龙胶囊、脉络通颗粒、软脉灵口服液、脑安颗粒。故本\n题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第四节脑系疾病"
+    },
+    {
+      "question_id": 245,
+      "question_num": "1",
+      "answer": "D",
+      "explanation": "【1】本题考查淋证的基础方剂。根据患者临床表现，诊断为淋证，辨证为劳淋，\n\n宜选用的基础方剂是无比山药丸加减。故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 246,
+      "question_num": "2",
+      "answer": "C",
+      "explanation": "【2】本题考查淋证的治法。根据患者临床表现，诊断为淋证，辨证为石淋，宜\n选用的治法是清热利湿，排石通淋。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 247,
+      "question_num": "3",
+      "answer": "C",
+      "explanation": "【3】本题考查淋证的辨证。根据患者临床表现，诊断为淋证，辨证为膏淋。故\n本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 248,
+      "question_num": "4",
+      "answer": "E",
+      "explanation": "【4】本题考查淋证的中成药。根据患者临床表现，诊断为淋证，辨证为气淋，\n宜选用的中成药是柴胡舒肝丸。故本题答案为E。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 249,
+      "question_num": "5",
+      "answer": "A",
+      "explanation": "【5】本题考查水肿的辨证。根据患者临床表现，诊断为水肿，辨证为风水相搏\n证。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 250,
+      "question_num": "6",
+      "answer": "D",
+      "explanation": "【6】本题考查淋证的治法。根据患者临床表现，诊断为淋证，辨证为血淋，宜\n选用的治法是清热通淋，凉血止血。故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 251,
+      "question_num": "7",
+      "answer": "B",
+      "explanation": "【7】本题考查癃闭的治法。根据患者临床表现，诊断为癃闭，辨证为浊瘀阻塞\n证，宜选用的治法是行瘀散结，通利水道。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 252,
+      "question_num": "8",
+      "answer": "D",
+      "explanation": "【8】本题考查咳嗽的中成药。根据患者临床表现，诊断为咳嗽，辨证为痰湿蕴\n肺证，宜选用的中成药是二陈丸、橘贝半夏颗粒、蛇胆陈皮胶囊。故本题答案为D。",
+      "confidence": 0.7142857142857143,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 253,
+      "question_num": "9",
+      "answer": "D",
+      "explanation": "【9～11】本组题考查淋证的辨证。①根据患者临床表现，诊断为淋证，辨证为\n血淋。故本题答案为D。②根据患者临床表现，诊断为淋证，辨证为石淋。故本题答案为\nB。③根据患者临床表现，诊断为淋证，辨证为劳淋。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 254,
+      "question_num": "10",
+      "answer": "B",
+      "explanation": "【9～11】本组题考查淋证的辨证。①根据患者临床表现，诊断为淋证，辨证为\n血淋。故本题答案为D。②根据患者临床表现，诊断为淋证，辨证为石淋。故本题答案为\nB。③根据患者临床表现，诊断为淋证，辨证为劳淋。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 255,
+      "question_num": "11",
+      "answer": "A",
+      "explanation": "【9～11】本组题考查淋证的辨证。①根据患者临床表现，诊断为淋证，辨证为\n血淋。故本题答案为D。②根据患者临床表现，诊断为淋证，辨证为石淋。故本题答案为\nB。③根据患者临床表现，诊断为淋证，辨证为劳淋。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 256,
+      "question_num": "12",
+      "answer": "C",
+      "explanation": "【12～14】①本题考查淋证的基础方剂。根据患者临床表现，诊断为淋证，辨\n证为膏淋，\n宜选用的基础方剂是程氏萆薢分清饮加减。\n故本题答案为C。\n②本题考查淋证的基\n础方剂。根据患者临床表现，诊断为淋证，辨证为劳淋，宜选用的基础方剂是无比山药丸加\n减。故本题答案为D。③本题考查癃闭的基础方剂。根据患者临床表现，诊断为癃闭，辨证\n为膀胱湿热证，宜选用的基础方剂是八正散加减。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 257,
+      "question_num": "13",
+      "answer": "D",
+      "explanation": "【12～14】①本题考查淋证的基础方剂。根据患者临床表现，诊断为淋证，辨\n证为膏淋，\n宜选用的基础方剂是程氏萆薢分清饮加减。\n故本题答案为C。\n②本题考查淋证的基\n础方剂。根据患者临床表现，诊断为淋证，辨证为劳淋，宜选用的基础方剂是无比山药丸加\n减。故本题答案为D。③本题考查癃闭的基础方剂。根据患者临床表现，诊断为癃闭，辨证\n为膀胱湿热证，宜选用的基础方剂是八正散加减。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 258,
+      "question_num": "14",
+      "answer": "A",
+      "explanation": "【12～14】①本题考查淋证的基础方剂。根据患者临床表现，诊断为淋证，辨\n证为膏淋，\n宜选用的基础方剂是程氏萆薢分清饮加减。\n故本题答案为C。\n②本题考查淋证的基\n础方剂。根据患者临床表现，诊断为淋证，辨证为劳淋，宜选用的基础方剂是无比山药丸加\n减。故本题答案为D。③本题考查癃闭的基础方剂。根据患者临床表现，诊断为癃闭，辨证\n为膀胱湿热证，宜选用的基础方剂是八正散加减。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 259,
+      "question_num": "15",
+      "answer": "E",
+      "explanation": "【15～17】本组题考查水肿的基础方剂。①水肿属水湿浸渍证，宜选用的基础\n方剂是五皮散合胃苓汤加减。故本题答案为E。②水肿属肾阳衰微证，宜选用的基础方剂是\n济生肾气丸合真武汤加减。故本题答案为C。③水肿属脾阳虚衰证，宜选用的基础方剂是实\n脾饮加减。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 260,
+      "question_num": "16",
+      "answer": "C",
+      "explanation": "【15～17】本组题考查水肿的基础方剂。①水肿属水湿浸渍证，宜选用的基础\n方剂是五皮散合胃苓汤加减。故本题答案为E。②水肿属肾阳衰微证，宜选用的基础方剂是\n济生肾气丸合真武汤加减。故本题答案为C。③水肿属脾阳虚衰证，宜选用的基础方剂是实\n脾饮加减。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第五节肾系疾病"
+    },
+    {
+      "question_id": 267,
+      "question_num": "4",
+      "answer": "C",
+      "explanation": "【4】本题考查湿疮的辨证。根据患者临床表现，诊断为湿疮，辨证为脾虚湿蕴\n证。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第六章中医外科常见病的辨证论治",
+      "matched_section": "第三节皮肤疾病"
+    },
+    {
+      "question_id": 268,
+      "question_num": "5",
+      "answer": "C",
+      "explanation": "【5～6】①本题考查乳癖的中成药。根据患者临床表现，诊断为乳癖，辨证为\n肝郁痰凝证，\n宜选用的中成药是乳核散结片、\n乳疾灵颗粒、\n乳康片。\n故本题答案为C。\n②本题考\n查乳痈的中成药。根据患者临床表现，诊断为乳痈，辨证为热毒炽盛证，宜选用的中成药是\n九一散、牛黄化毒片。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第六章中医外科常见病的辨证论治",
+      "matched_section": "第二节乳房疾病"
+    },
+    {
+      "question_id": 272,
+      "question_num": "3",
+      "answer": "A",
+      "explanation": "【3】本题考查疖的基础方剂。根据患者临床表现，诊断为疖，辨证为热毒蕴结\n证，宜选用的基础方剂是五味消毒饮加减。故本题答案为A",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第六章中医外科常见病的辨证论治",
+      "matched_section": "第一节疮疡疾病"
+    },
+    {
+      "question_id": 275,
+      "question_num": "5",
+      "answer": "B",
+      "explanation": "【5】本题考查感冒的基础方剂。根据患者临床表现，诊断为感冒，辨证为体虚\n感冒，宜选用的基础方剂是参苏饮加减。故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 276,
+      "question_num": "6",
+      "answer": "B",
+      "explanation": "【6】本题考查感冒的基础方剂。根据患者临床表现，诊断为感冒，辨证为风热\n感冒，宜选用的基础方剂是银翘散加减。故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 277,
+      "question_num": "7",
+      "answer": "D",
+      "explanation": "【7】\n本题考查咳嗽的临床表现。\n咳嗽属风寒袭肺证的主要临床表现是咳嗽声重，\n痰稀色白。故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 278,
+      "question_num": "8",
+      "answer": "D",
+      "explanation": "【8】本题考查咳嗽的中成药。根据患者临床表现，诊断为咳嗽，辨证为痰湿蕴\n肺证，宜选用的中成药是二陈丸、橘贝半夏颗粒、蛇胆陈皮胶囊。故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 279,
+      "question_num": "9",
+      "answer": "A",
+      "explanation": "【9】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为风热感\n\n冒。\n宜选用的中成药是银翘解毒丸、\n双黄连口服液、\n桑菊感冒片、\n感冒清胶囊、\n柴银口服液。\n故本题答案为A。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 280,
+      "question_num": "10",
+      "answer": "D",
+      "explanation": "【10】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为风寒\n感冒，\n宜选用的中成药是荆防颗粒、\n九味羌活丸、\n葛根汤颗粒、\n感冒软胶囊、\n感冒清热颗粒。\n故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 281,
+      "question_num": "11",
+      "answer": "C",
+      "explanation": "【11】本题考查肺胀的辨证。根据患者临床表现，诊断为肺胀，辨证为肺肾气\n虚证。故本题答案为C。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 282,
+      "question_num": "12",
+      "answer": "B",
+      "explanation": "【12】本题考查感冒的治法。感冒属时行感冒，宜选用的治法是清热解毒，凉\n血泻火。故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 283,
+      "question_num": "13",
+      "answer": "D",
+      "explanation": "【13】本题考查咳嗽的治法。根据患者临床表现，诊断为咳嗽，辨证为痰湿蕴\n肺证，宜选用的治法是健脾燥湿，化痰止咳。故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 284,
+      "question_num": "14",
+      "answer": "A",
+      "explanation": "【14】本题考查肺胀的基础方剂。根据患者临床表现，诊断为肺胀，辨证为痰\n热郁肺证，宜选用的基础方剂是越婢加半夏汤或桑白皮汤加减。故本题答案为A。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 285,
+      "question_num": "15",
+      "answer": "B",
+      "explanation": "【15】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为暑湿\n感冒，宜选用的中成药是藿香正气水、保济丸。故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 286,
+      "question_num": "16",
+      "answer": "E",
+      "explanation": "【16】本题考查咳嗽的辨证。根据患者临床表现，诊断为咳嗽，辨证为肺阴亏\n耗证。故本题答案为E。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 287,
+      "question_num": "17",
+      "answer": "D",
+      "explanation": "【17～19】\n本组题考查胃痛的临床特点。\n①胃痛属肝气犯胃证的临床表现为胃脘\n胀痛，痛连两胁，遇烦恼则痛作或痛甚，嗳气、矢气则舒，脘闷嗳气，喜长叹息，大便不畅。\n舌淡红，苔薄白，脉弦。故本题答案为D。②胃痛属饮食伤胃证的临床表现为胃脘疼痛，胀\n满拒按，嗳腐恶食，或吐不消化食物，吐后或矢气后痛减，大便不爽。舌淡红，苔厚腻，脉\n滑。故本题答案为B。③胃痛属寒邪客胃证的临床表现为胃痛暴作，喜温恶寒，得温痛减，\n遇寒加重，口淡不渴，或喜热饮。舌淡，苔薄白，脉弦紧。故本题答案为A。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 288,
+      "question_num": "18",
+      "answer": "B",
+      "explanation": "【17～19】\n本组题考查胃痛的临床特点。\n①胃痛属肝气犯胃证的临床表现为胃脘\n胀痛，痛连两胁，遇烦恼则痛作或痛甚，嗳气、矢气则舒，脘闷嗳气，喜长叹息，大便不畅。\n舌淡红，苔薄白，脉弦。故本题答案为D。②胃痛属饮食伤胃证的临床表现为胃脘疼痛，胀\n满拒按，嗳腐恶食，或吐不消化食物，吐后或矢气后痛减，大便不爽。舌淡红，苔厚腻，脉\n滑。故本题答案为B。③胃痛属寒邪客胃证的临床表现为胃痛暴作，喜温恶寒，得温痛减，\n遇寒加重，口淡不渴，或喜热饮。舌淡，苔薄白，脉弦紧。故本题答案为A。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 289,
+      "question_num": "19",
+      "answer": "A",
+      "explanation": "【17～19】\n本组题考查胃痛的临床特点。\n①胃痛属肝气犯胃证的临床表现为胃脘\n胀痛，痛连两胁，遇烦恼则痛作或痛甚，嗳气、矢气则舒，脘闷嗳气，喜长叹息，大便不畅。\n舌淡红，苔薄白，脉弦。故本题答案为D。②胃痛属饮食伤胃证的临床表现为胃脘疼痛，胀\n满拒按，嗳腐恶食，或吐不消化食物，吐后或矢气后痛减，大便不爽。舌淡红，苔厚腻，脉\n滑。故本题答案为B。③胃痛属寒邪客胃证的临床表现为胃痛暴作，喜温恶寒，得温痛减，\n遇寒加重，口淡不渴，或喜热饮。舌淡，苔薄白，脉弦紧。故本题答案为A。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第三节脾胃系疾病"
+    },
+    {
+      "question_id": 290,
+      "question_num": "20",
+      "answer": "D",
+      "explanation": "【20～22】本组题考查不寐的辨证。①根据患者临床表现，诊断为不寐，辨证\n为肝火扰心证。故本题答案为D。②根据患者临床表现，诊断为不寐，辨证为心胆气虚证。\n故本题答案为C。③根据患者临床表现，诊断为不寐，辨证为痰热扰心证。故本题答案为\nA。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 291,
+      "question_num": "21",
+      "answer": "C",
+      "explanation": "【20～22】本组题考查不寐的辨证。①根据患者临床表现，诊断为不寐，辨证\n为肝火扰心证。故本题答案为D。②根据患者临床表现，诊断为不寐，辨证为心胆气虚证。\n故本题答案为C。③根据患者临床表现，诊断为不寐，辨证为痰热扰心证。故本题答案为\nA。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 292,
+      "question_num": "22",
+      "answer": "A",
+      "explanation": "【20～22】本组题考查不寐的辨证。①根据患者临床表现，诊断为不寐，辨证\n为肝火扰心证。故本题答案为D。②根据患者临床表现，诊断为不寐，辨证为心胆气虚证。\n故本题答案为C。③根据患者临床表现，诊断为不寐，辨证为痰热扰心证。故本题答案为\nA。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 293,
+      "question_num": "23",
+      "answer": "E",
+      "explanation": "【23～24】本组题考查胸痹的基础方剂。①根据患者临床表现，诊断为胸痹，\n辨证为痰浊闭阻证，\n宜选用的基础方剂是瓜蒌薤白半夏汤合涤痰汤加减。\n故本题答案为E。\n②\n根据患者临床表现，\n诊断为胸痹，\n辨证为气虚血瘀证，\n宜选用的基础方剂是补阳还五汤加减。\n故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 294,
+      "question_num": "24",
+      "answer": "B",
+      "explanation": "【23～24】本组题考查胸痹的基础方剂。①根据患者临床表现，诊断为胸痹，\n辨证为痰浊闭阻证，\n宜选用的基础方剂是瓜蒌薤白半夏汤合涤痰汤加减。\n故本题答案为E。\n②\n根据患者临床表现，\n诊断为胸痹，\n辨证为气虚血瘀证，\n宜选用的基础方剂是补阳还五汤加减。\n故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第二节心系疾病"
+    },
+    {
+      "question_id": 295,
+      "question_num": "25",
+      "answer": "C",
+      "explanation": "【25～26】本组题考查感冒的基础方剂。①感冒属风寒感冒，宜选用的基础方\n剂是荆防败毒散加减。故本题答案为C。②感冒属时行感冒，宜选用的基础方剂是清瘟败毒\n饮加减。故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 296,
+      "question_num": "26",
+      "answer": "B",
+      "explanation": "【25～26】本组题考查感冒的基础方剂。①感冒属风寒感冒，宜选用的基础方\n剂是荆防败毒散加减。故本题答案为C。②感冒属时行感冒，宜选用的基础方剂是清瘟败毒\n饮加减。故本题答案为B。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 297,
+      "question_num": "27",
+      "answer": "A",
+      "explanation": "【27～28】\n本组题考查喘证的临床特点。\n①喘证痰浊阻肺证的临床特点是喘满胸\n闷，痰多黏白，呕恶纳呆。故本题答案为A。②喘证风寒闭肺证的临床特点是喘息咳逆，痰\n白稀薄，恶寒无汗。故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 298,
+      "question_num": "28",
+      "answer": "D",
+      "explanation": "【27～28】\n本组题考查喘证的临床特点。\n①喘证痰浊阻肺证的临床特点是喘满胸\n闷，痰多黏白，呕恶纳呆。故本题答案为A。②喘证风寒闭肺证的临床特点是喘息咳逆，痰\n白稀薄，恶寒无汗。故本题答案为D。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 299,
+      "question_num": "29",
+      "answer": "C",
+      "explanation": "【29～30】本组题考查喘证的基础方剂。①根据患者临床表现，诊断为喘证，\n辨证为痰浊阻肺证，\n宜选用的基础方剂是二陈汤合三子养亲汤加减。\n故本题答案为C。\n②根据\n患者临床表现，\n诊断为喘证，\n辨证为风寒闭肺证，\n宜选用的基础方剂是麻黄汤合华盖散加减。\n故本题答案为A。",
+      "confidence": 0.8148148148148148,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 300,
+      "question_num": "1",
+      "answer": "E",
+      "explanation": "【1】本题考查咳嗽的辨证。根据患者临床表现，诊断为咳嗽，辨证为风热犯肺\n证。故本题答案为E。",
+      "confidence": 0.8387096774193549,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 310,
+      "question_num": "10",
+      "answer": "D",
+      "explanation": "【10】本题考查感冒的中成药。根据患者临床表现，诊断为感冒，辨证为风寒\n感冒，\n宜选用的中成药是荆防颗粒、\n九味羌活丸、\n葛根汤颗粒、\n感冒软胶囊、\n感冒清热颗粒。\n故本题答案为D。",
+      "confidence": 0.8666666666666667,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第五章中医内科常见病的辨证论治",
+      "matched_section": "第一节肺系疾病"
+    },
+    {
+      "question_id": 341,
+      "question_num": "6",
+      "answer": "B",
+      "explanation": "【6】本题考查饮片的正名和别名。\n“百部”的别名有百部草、肥百部、野天门\n冬。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第二节中药饮片调剂"
+    },
+    {
+      "question_id": 368,
+      "question_num": "7",
+      "answer": "B",
+      "explanation": "【6】本题考查处方的常用术语。医师处方对采时、新陈有不同要求，如嫩桂枝、\n绵茵陈（质嫩）\n、霜桑叶、陈香橼、陈佛手、陈皮、鲜芦根、鲜茅根等。故本题答案为B。",
+      "confidence": 0.82,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第一节中药处方"
+    },
+    {
+      "question_id": 369,
+      "question_num": "8",
+      "answer": "B",
+      "explanation": "【6】本题考查处方的常用术语。医师处方对采时、新陈有不同要求，如嫩桂枝、\n绵茵陈（质嫩）\n、霜桑叶、陈香橼、陈佛手、陈皮、鲜芦根、鲜茅根等。故本题答案为B。",
+      "confidence": 0.82,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第一节中药处方"
+    },
+    {
+      "question_id": 370,
+      "question_num": "9",
+      "answer": "B",
+      "explanation": "【6】本题考查处方的常用术语。医师处方对采时、新陈有不同要求，如嫩桂枝、\n绵茵陈（质嫩）\n、霜桑叶、陈香橼、陈佛手、陈皮、鲜芦根、鲜茅根等。故本题答案为B。",
+      "confidence": 0.82,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第一节中药处方"
+    },
+    {
+      "question_id": 371,
+      "question_num": "10",
+      "answer": "A",
+      "explanation": "【10】本题考查饮片处方药味的生品与制品。大承气汤泻下，方中大黄宜选用\n生大黄。故本题答案为A。",
+      "confidence": 0.82,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第二节中药饮片调剂"
+    },
+    {
+      "question_id": 372,
+      "question_num": "11",
+      "answer": "A",
+      "explanation": "【11】\n本题考查饮片的正名和别名。\n拳参的别名是紫参。\n丹参的别名是紫丹参、\n赤参。故本题答案为A。",
+      "confidence": 0.82,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第二节中药饮片调剂"
+    },
+    {
+      "question_id": 373,
+      "question_num": "12",
+      "answer": "D",
+      "explanation": "【12】本题考查饮片的正名和别名。梭罗子应付娑罗子、海南子应付槟榔。故\n\n本题答案为D。",
+      "confidence": 0.82,
+      "strategy": "tier2-fuzzy-chapter",
+      "matched_chapter": "第十一章中药调剂",
+      "matched_section": "第二节中药饮片调剂"
+    },
+    {
+      "question_id": 430,
+      "question_num": "4",
+      "answer": "C",
+      "explanation": "【4】本题考查阴阳的治则治法。对阴阳偏衰的治疗，明·张景岳根据阴阳互根\n的原理，提出了阴中求阳、阳中求阴的治法，\n“阴中求阳”即在用补阳药时，可佐用补阴药；\n以发挥其互根互用的生化作用。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 448,
+      "question_num": "6",
+      "answer": "A",
+      "explanation": "【5】本题考查阴阳的治则治法。偏盛为实证，阳偏盛为热证，因此患者为实热\n证。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 460,
+      "question_num": "7",
+      "answer": "A",
+      "explanation": "【5】本题考查阴阳的治则治法。偏盛为实证，阳偏盛为热证，因此患者为实热\n证。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier1-exact",
+      "matched_chapter": "第二章中医理论基础",
+      "matched_section": "第二节阴阳学说"
+    },
+    {
+      "question_id": 561,
+      "question_num": "1",
+      "answer": "C",
+      "explanation": "【1】本题考查婴幼儿患者合理应用中药的原则。小儿生机旺盛，宜饮食调理，\n不宜滥用滋补之品。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 562,
+      "question_num": "2",
+      "answer": "A",
+      "explanation": "【2】本题考查婴幼儿患者应用中药的注意事项。面色苍白、夜寐不安、神疲乏\n力、舌质淡，属于气血两虚的小儿可给予益气养血的黄芪、党参、何首乌、当归、黄精、大\n枣等。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 563,
+      "question_num": "3",
+      "answer": "D",
+      "explanation": "【3】本题考查婴幼儿患者应用中药的注意事项。患儿面黄肌瘦，食欲不振，大\n便溏薄，属于脾虚，可选用健脾和胃消食的山药、茯苓、白术、白扁豆、稻芽等。故本题答\n案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 564,
+      "question_num": "4",
+      "answer": "B",
+      "explanation": "【4】\n本题考查婴幼儿患者合理应用中药的原则。\n①小儿脾气不足，\n消化能力差，\n因此应佐以健脾和胃，\n消食导滞的山药、\n六神曲、\n麦芽、\n山楂、\n陈皮、\n鸡内金、\n白术等\n；\n②小儿体\n属“纯阳”\n，热病偏多，且肝常有余，易出现肝热抽搐、惊风之症。救治小儿疾病特别是外\n感病邪，出现壮热、烦躁、惊惕等症，则应在清热透解之时，佐以平肝息风之蝉蜕、钩藤、\n僵蚕、地龙等\n；\n③小儿生机旺盛，宜饮食调理，不宜滥用滋补之品，否则会使机体阴阳失衡，\n伤及脏腑气机；④小儿得病急，变化快，因此用药要及时；小儿脏腑娇嫩，对药敏感，处方\n要精，用量要轻。故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 566,
+      "question_num": "6",
+      "answer": "A",
+      "explanation": "【6～7】\n本组题考查老年人的用药指导。\n①老年人肾阴虚患者宜选用中成药六味\n地黄丸。故本题答案为A。②老年人心脾两虚者宜选用中成药人参归脾丸。故本题答案为\nC。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 567,
+      "question_num": "7",
+      "answer": "C",
+      "explanation": "【6～7】\n本组题考查老年人的用药指导。\n①老年人肾阴虚患者宜选用中成药六味\n地黄丸。故本题答案为A。②老年人心脾两虚者宜选用中成药人参归脾丸。故本题答案为\nC。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 568,
+      "question_num": "8",
+      "answer": "B",
+      "explanation": "【8～10】本组题考查老年患者的中药应用。①含黄酮类的中成药如复方丹参\n片、银杏叶片、复方丹参滴丸和抗酸类西药如法莫替丁片，联用时可产生络合效应，影响疗\n效，应分时应用，以间隔1 小时为宜。故本题答案为B。②中成药培元通脑胶囊、活血通脉\n片、益心通脉颗粒等含有人参、甘草、鹿茸等成分，具有糖皮质激素样作用，和降糖药如二\n甲双胍、阿卡波糖、消渴丸、胰岛素联用产生拮抗作用，使降糖效果降低。故本题答案为\nC。③含有糖皮质激素样物质的中药鹿茸、甘草，以及含有人参、鹿茸成分的中成药培元通\n脑胶囊、活血通脉片、益心通脉颗粒等和阿司匹林联用会加重对胃黏膜的损伤。故本题答案\n为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 569,
+      "question_num": "9",
+      "answer": "C",
+      "explanation": "【8～10】本组题考查老年患者的中药应用。①含黄酮类的中成药如复方丹参\n片、银杏叶片、复方丹参滴丸和抗酸类西药如法莫替丁片，联用时可产生络合效应，影响疗\n效，应分时应用，以间隔1 小时为宜。故本题答案为B。②中成药培元通脑胶囊、活血通脉\n片、益心通脉颗粒等含有人参、甘草、鹿茸等成分，具有糖皮质激素样作用，和降糖药如二\n甲双胍、阿卡波糖、消渴丸、胰岛素联用产生拮抗作用，使降糖效果降低。故本题答案为\nC。③含有糖皮质激素样物质的中药鹿茸、甘草，以及含有人参、鹿茸成分的中成药培元通\n脑胶囊、活血通脉片、益心通脉颗粒等和阿司匹林联用会加重对胃黏膜的损伤。故本题答案\n为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 570,
+      "question_num": "10",
+      "answer": "C",
+      "explanation": "【8～10】本组题考查老年患者的中药应用。①含黄酮类的中成药如复方丹参\n片、银杏叶片、复方丹参滴丸和抗酸类西药如法莫替丁片，联用时可产生络合效应，影响疗\n效，应分时应用，以间隔1 小时为宜。故本题答案为B。②中成药培元通脑胶囊、活血通脉\n片、益心通脉颗粒等含有人参、甘草、鹿茸等成分，具有糖皮质激素样作用，和降糖药如二\n甲双胍、阿卡波糖、消渴丸、胰岛素联用产生拮抗作用，使降糖效果降低。故本题答案为\nC。③含有糖皮质激素样物质的中药鹿茸、甘草，以及含有人参、鹿茸成分的中成药培元通\n脑胶囊、活血通脉片、益心通脉颗粒等和阿司匹林联用会加重对胃黏膜的损伤。故本题答案\n为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 571,
+      "question_num": "11",
+      "answer": "C",
+      "explanation": "【11～13】本组题考查婴幼儿患者的用药指导。①体虚夹湿热，有口臭、便秘、\n舌苔黄腻的患儿应选用清热除湿的广藿香、黄连、薏苡仁、黄芩、陈皮等，使热清湿化。故\n本题答案为C。②生长发育迟缓、面色苍白、尿频、舌胖，属于肾虚的患儿宜用补肾的补骨\n脂、肉苁蓉、菟丝子、熟地黄等。故本题答案为B。③平时容易感冒、多汗，属于气虚的患\n儿可服用补气固表的黄芪、白术、太子参等。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 572,
+      "question_num": "12",
+      "answer": "B",
+      "explanation": "【11～13】本组题考查婴幼儿患者的用药指导。①体虚夹湿热，有口臭、便秘、\n舌苔黄腻的患儿应选用清热除湿的广藿香、黄连、薏苡仁、黄芩、陈皮等，使热清湿化。故\n本题答案为C。②生长发育迟缓、面色苍白、尿频、舌胖，属于肾虚的患儿宜用补肾的补骨\n脂、肉苁蓉、菟丝子、熟地黄等。故本题答案为B。③平时容易感冒、多汗，属于气虚的患\n儿可服用补气固表的黄芪、白术、太子参等。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 573,
+      "question_num": "13",
+      "answer": "A",
+      "explanation": "【11～13】本组题考查婴幼儿患者的用药指导。①体虚夹湿热，有口臭、便秘、\n舌苔黄腻的患儿应选用清热除湿的广藿香、黄连、薏苡仁、黄芩、陈皮等，使热清湿化。故\n本题答案为C。②生长发育迟缓、面色苍白、尿频、舌胖，属于肾虚的患儿宜用补肾的补骨\n脂、肉苁蓉、菟丝子、熟地黄等。故本题答案为B。③平时容易感冒、多汗，属于气虚的患\n儿可服用补气固表的黄芪、白术、太子参等。故本题答案为A。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 574,
+      "question_num": "14",
+      "answer": "D",
+      "explanation": "【14～16】\n本题考查老年人合理应用中药的原则。\n①含有糖皮质激素样物质的中\n药甘草、鹿茸应避免与阿司匹林合用，防止加重对胃黏膜的损伤。而益心通脉颗粒中含有有\n人参、甘草、鹿茸，故不能与阿司匹林联用。故本题答案为D。②含甘草、人参、鹿茸等成\n分的中成药不宜与降糖药二甲双胍、消渴丸、阿卡波糖和胰岛素等联用，二者联用会出现药\n效学的拮抗，从而使降糖效果降低。故本题答案为D。③法莫替丁片为抗溃疡抗酸药，服用\n抗酸类西药时应避免与含黄酮类的中成药如复方丹参片、复方丹参滴丸、银杏叶片等同服。\n故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 575,
+      "question_num": "15",
+      "answer": "D",
+      "explanation": "【14～16】\n本题考查老年人合理应用中药的原则。\n①含有糖皮质激素样物质的中\n药甘草、鹿茸应避免与阿司匹林合用，防止加重对胃黏膜的损伤。而益心通脉颗粒中含有有\n人参、甘草、鹿茸，故不能与阿司匹林联用。故本题答案为D。②含甘草、人参、鹿茸等成\n分的中成药不宜与降糖药二甲双胍、消渴丸、阿卡波糖和胰岛素等联用，二者联用会出现药\n效学的拮抗，从而使降糖效果降低。故本题答案为D。③法莫替丁片为抗溃疡抗酸药，服用\n抗酸类西药时应避免与含黄酮类的中成药如复方丹参片、复方丹参滴丸、银杏叶片等同服。\n故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 576,
+      "question_num": "16",
+      "answer": "B",
+      "explanation": "【14～16】\n本题考查老年人合理应用中药的原则。\n①含有糖皮质激素样物质的中\n药甘草、鹿茸应避免与阿司匹林合用，防止加重对胃黏膜的损伤。而益心通脉颗粒中含有有\n人参、甘草、鹿茸，故不能与阿司匹林联用。故本题答案为D。②含甘草、人参、鹿茸等成\n分的中成药不宜与降糖药二甲双胍、消渴丸、阿卡波糖和胰岛素等联用，二者联用会出现药\n效学的拮抗，从而使降糖效果降低。故本题答案为D。③法莫替丁片为抗溃疡抗酸药，服用\n抗酸类西药时应避免与含黄酮类的中成药如复方丹参片、复方丹参滴丸、银杏叶片等同服。\n故本题答案为B。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 577,
+      "question_num": "17",
+      "answer": "A",
+      "explanation": "【17～18】\n本组题考查老年人的中药应用。\n①麝香保心丸和地高辛等强心类药物\n联用会造成相同或相似功效的累加，产生拟似效应，诱发强心苷中毒，出现频发性早搏等心\n律失常等不良反应。故本题答案为A。②活血通脉片含有具有糖皮质激素样作用的甘草、鹿\n茸等成分，可升高血糖，与降血糖药物胰岛素等联用会产生拮抗作用，导致降糖效果降低。\n故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 578,
+      "question_num": "18",
+      "answer": "D",
+      "explanation": "【17～18】\n本组题考查老年人的中药应用。\n①麝香保心丸和地高辛等强心类药物\n联用会造成相同或相似功效的累加，产生拟似效应，诱发强心苷中毒，出现频发性早搏等心\n律失常等不良反应。故本题答案为A。②活血通脉片含有具有糖皮质激素样作用的甘草、鹿\n茸等成分，可升高血糖，与降血糖药物胰岛素等联用会产生拮抗作用，导致降糖效果降低。\n故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第四节特殊人群的中药应用"
+    },
+    {
+      "question_id": 579,
+      "question_num": "1",
+      "answer": "D",
+      "explanation": "【1】本题考查咨询服务的对象和内容。在选项人群中，药品价格、报销，是否\n进入医疗保险报销目录等是患者群体最关注的问题。故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第五节中药药学服务发展与健康促进"
+    },
+    {
+      "question_id": 580,
+      "question_num": "2",
+      "answer": "C",
+      "explanation": "【2】本题考查服药时间。呕吐、惊厥、石淋、咽喉病须煎汤代茶饮者，均可不\n定时服药。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第五节中药药学服务发展与健康促进"
+    },
+    {
+      "question_id": 581,
+      "question_num": "3",
+      "answer": "C",
+      "explanation": "【3】\n本题考查服药时间。\n宜空腹服的药物包括\n：\n①峻下逐水药，\n如十枣汤\n；\n②驱虫\n药；③攻积导滞药；④活血化瘀药，如桃核承气汤。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第五节中药药学服务发展与健康促进"
+    },
+    {
+      "question_id": 582,
+      "question_num": "4",
+      "answer": "C",
+      "explanation": "【4】本题考查服药时间。补益药宜饭前服以利于吸收，如六味地黄丸、参苓白\n术散等。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第五节中药药学服务发展与健康促进"
+    },
+    {
+      "question_id": 583,
+      "question_num": "5",
+      "answer": "C",
+      "explanation": "【5】\n本题考查服药时间。\n宜饭后服的药物包括\n：\n①一般药物\n；\n②对胃肠道有刺激的\n药物及苦寒伤胃之药，\n如皂角丸、\n羚羊角散\n；\n③健胃消食药，\n如保和丸、\n大山楂丸等\n；\n④病在胸\n膈以上，如头痛、眩晕、目疾、咽痛等。故本题答案为C。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第五节中药药学服务发展与健康促进"
+    },
+    {
+      "question_id": 584,
+      "question_num": "6",
+      "answer": "D",
+      "explanation": "【6】本题考查服药温度。需要热服的药物包括：解表药、寒证药、真热假寒证\n用药。故本题答案为D。",
+      "confidence": 1.0,
+      "strategy": "tier3-section",
+      "matched_chapter": "第十二章中药的合理应用和健康促进",
+      "matched_section": "第五节中药药学服务发展与健康促进"
+    }
+  ]
+}

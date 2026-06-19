@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+
+# Environment
+.env
+*.env
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads (keep directory structure, ignore files)
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
+
+# Build outputs
+backend/app/static/dist/
+frontend/dist/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_download.pdf
+test_*.pdf
+
+# Logs
+*.log

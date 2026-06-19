@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Viewer</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+    #canvas-container { width: 100%; height: 100%; overflow: auto; background: #f3f4f6; }
+    canvas { display: block; margin: 0 auto; }
+    #loading { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: sans-serif; color: #6b7280; }
+    #error { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: sans-serif; color: #ef4444; max-width: 80%; text-align: center; }
+  </style>
+</head>
+<body>
+  <div id="loading">加载PDF中...</div>
+  <div id="error" style="display:none"></div>
+  <div id="canvas-container"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    const fileUrl = new URLSearchParams(window.location.search).get('file');
+    const hashParams = new URLSearchParams(window.location.hash.replace(/^#/, ''));
+    let currentPage = parseInt(hashParams.get('page') || '1');
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    let pdfDoc = null;
+
+    function showError(msg) {
+      document.getElementById('loading').style.display = 'none';
+      const el = document.getElementById('error');
+      el.textContent = msg;
+      el.style.display = 'block';
+    }
+
+    async function renderPage(num) {
+      if (!pdfDoc) return;
+      try {
+        const page = await pdfDoc.getPage(num);
+        const container = document.getElementById('canvas-container');
+        const containerWidth = container.clientWidth || 800;
+        const baseViewport = page.getViewport({ scale: 1 });
+        const scale = Math.min(containerWidth / baseViewport.width, 1.5);
+        const viewport = page.getViewport({ scale });
+
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        container.innerHTML = '';
+        container.appendChild(canvas);
+
+        await page.render({ canvasContext: context, viewport }).promise;
+      } catch (e) {
+        showError('渲染页面失败: ' + e.message);
+      }
+    }
+
+    async function loadPdf() {
+      try {
+        // Use fetch to get the PDF as ArrayBuffer (avoids CORS issues with direct URL)
+        const response = await fetch(fileUrl);
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const data = await response.arrayBuffer();
+
+        const loadingTask = pdfjsLib.getDocument({ data });
+        pdfDoc = await loadingTask.promise;
+        document.getElementById('loading').style.display = 'none';
+        await renderPage(currentPage);
+      } catch (e) {
+        showError('PDF加载失败: ' + e.message + ' | URL: ' + fileUrl);
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      const p = parseInt(new URLSearchParams(window.location.hash.replace(/^#/, '')).get('page') || '1');
+      if (p !== currentPage) {
+        currentPage = p;
+        renderPage(currentPage);
+      }
+    });
+
+    loadPdf();
+  </script>
+</body>
+</html>
