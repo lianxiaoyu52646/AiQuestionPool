@@ -1,0 +1,1613 @@
+{
+  "paper_info": {
+    "title": "中药一-摸底测评100题",
+    "year": 2026,
+    "total_questions": 100,
+    "time_limit_minutes": 100,
+    "pass_score": 60,
+    "subject": "中药学专业知识（一）",
+    "description": "中药一-摸底测评100题"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "A",
+      "stem": "《中国药典》凡例规定称取“2g\"样重系指取样重量可为",
+      "options": {
+        "A": "15—25",
+        "B": "1.05-2.05g",
+        "C": "1.4-2.6g",
+        "D": "1.04-2.06g",
+        "E": "1.5-2.5g"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/ad2d2a664fd43b06d4650ddae84c4edd07b6326e.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 2,
+      "question_type": "A",
+      "stem": "无色亚甲蓝显色反应可用于检识",
+      "options": {
+        "A": "蒽醌",
+        "B": "黄酮",
+        "C": "香豆素",
+        "D": "萘醌",
+        "E": "乙型强心苷"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/7f7b1d7419a95f805c5c342af9afc9af1a8cc1f5.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 3,
+      "question_type": "A",
+      "stem": "呈棒状，上粗下细，略弯曲，长2-3cm，表面黄白色，密被短柔毛的药材是",
+      "options": {
+        "A": "丁香",
+        "B": "菊花",
+        "C": "槐花",
+        "D": "款冬花",
+        "E": "金银花"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/d526221e14fb62c2b201086de9dc53f4af7a0a77.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 4,
+      "question_type": "A",
+      "stem": "不属于温热性药所示效用的是",
+      "options": {
+        "A": "温里散寒",
+        "B": "回阳救逆",
+        "C": "补火助阳",
+        "D": "温经通脉",
+        "E": "凉血解热毒"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/3ad9a584f5f39d677001298580475a8d4ad9ebf1.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 5,
+      "question_type": "A",
+      "stem": "收载药物最多的本草著作是",
+      "options": {
+        "A": "本草纲目",
+        "B": "新修本草",
+        "C": "证类本草",
+        "D": "中华本草",
+        "E": "本草纲目拾遗"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/65643aa92250149c1479f9c04c0199e76a326264.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 6,
+      "question_type": "A",
+      "stem": "柴胡皂苷属于哪种类型衍生物",
+      "options": {
+        "A": "羊毛甾烷",
+        "B": "达玛烷",
+        "C": "齐墩果烷",
+        "D": "乌苏烷",
+        "E": "羽扇豆烷"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/bf3d681bca9b64cb2071b8b1b10a5a5b8e29f22e.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 7,
+      "question_type": "A",
+      "stem": "醋的炮制作用不包括",
+      "options": {
+        "A": "散瘀止痛",
+        "B": "理气止痛",
+        "C": "疏肝健脾",
+        "D": "行水解毒",
+        "E": "矫臭矫味"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/23d139bd4d4792ad9f7559878ef3459877ede4fb.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 8,
+      "question_type": "A",
+      "stem": "经过蒸制使药材软化还可以防止变绿的药材是",
+      "options": {
+        "A": "地黄",
+        "B": "川乌",
+        "C": "黄芩",
+        "D": "黄精",
+        "E": "何首乌"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/85a1f72b2137f148b1219f210d1fe0e2bbd82d2f.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 9,
+      "question_type": "A",
+      "stem": "米炒斑蝥降低毒性，是利用了斑蝥素的",
+      "options": {
+        "A": "升华性",
+        "B": "脂溶性",
+        "C": "水溶性",
+        "D": "遇热分解",
+        "E": "蛋白质凝固"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/040a378a2184c097c66eb4c771e2ebc48c80d9cf.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 10,
+      "question_type": "A",
+      "stem": "何首乌的炮制可采用",
+      "options": {
+        "A": "清蒸",
+        "B": "黑豆汁蒸",
+        "C": "酒蒸",
+        "D": "酣蒸",
+        "E": "酒醋共蒸"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/776270289b22db8495b7ca94ffc2003553953c57.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 11,
+      "question_type": "A",
+      "stem": "植物类药材显微鉴定时，加稀醋酸不溶解，加稀盐酸溶解而无气泡发生的后含物是",
+      "options": {
+        "A": "碳酸钙",
+        "B": "硅质块",
+        "C": "草酸钙结晶",
+        "D": "糊粉粒",
+        "E": "淀粉粒"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/2c9cf483cb86fe66c7e078f75d5684550689f42e.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 12,
+      "question_type": "A",
+      "stem": "热原的基本性质不包括",
+      "options": {
+        "A": "水溶性",
+        "B": "渗透性",
+        "C": "被活性炭等的吸附性",
+        "D": "不挥发性",
+        "E": "滤过性"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/6f5a774677bdea12e1f0dfbdf3d0a0df6ffcfceb.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 13,
+      "question_type": "A",
+      "stem": "制备黑膏药的植物油最常用的是",
+      "options": {
+        "A": "豆油",
+        "B": "菜油",
+        "C": "麻油",
+        "D": "花生油",
+        "E": "棉籽油"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/00b752521c1a6870892b5f14a0b874973b527c1c.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 14,
+      "question_type": "A",
+      "stem": "含有毒性及刺激性强的药物宜制成",
+      "options": {
+        "A": "水丸",
+        "B": "蜜丸",
+        "C": "蜡丸",
+        "D": "浓缩丸",
+        "E": "水蜜丸"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/267b78096e100b2f888d93d469e64ed35d9217d6.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 15,
+      "question_type": "A",
+      "stem": "适合制成缓释制剂的药物有",
+      "options": {
+        "A": "需长期给药的药物",
+        "B": "单服剂量大于1g的药物",
+        "C": "生物半衰期小于lh的药物",
+        "D": "药性剧烈、溶解度小的药物",
+        "E": "在肠道中特定部位主动吸收的药物"
+      },
+      "answer": "A",
+      "explanation": "",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 16,
+      "question_type": "A",
+      "stem": "切面有多数淡黄色小点（维管束）排列成数轮同心环的饮片是",
+      "options": {
+        "A": "防己",
+        "B": "柴胡",
+        "C": "龙胆",
+        "D": "川牛膝",
+        "E": "知母"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/1556152315e1e9b351d50583618e07f2d7a500c7.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 17,
+      "question_type": "A",
+      "stem": "韧皮部与木质部相间排列呈数个同心性椭圆形环的中药材是",
+      "options": {
+        "A": "木通",
+        "B": "钩藤",
+        "C": "苏木",
+        "D": "大血藤",
+        "E": "鸡血藤"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/45ac7b8636a5f56f3c77e27da0a0c5af5f9208e0.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 18,
+      "question_type": "A",
+      "stem": "朱砂的主要成分是",
+      "options": {
+        "A": "二硫化二砷",
+        "B": "二硫化铁",
+        "C": "硫酸锌",
+        "D": "三氧化二砷",
+        "E": "硫化汞"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/0aad73433113431cd090e126d981781b2439341e.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 19,
+      "question_type": "A",
+      "stem": "用于黄酮类化合物的显色反应是",
+      "options": {
+        "A": "碘-碘化钾反应",
+        "B": "甲基化反应",
+        "C": "酶解反应",
+        "D": "乙酰化反应",
+        "E": "盐酸-镁粉反应"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/80ec23f181086fb33c390cfd4296ab67adc320b0.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 20,
+      "question_type": "A",
+      "stem": "表示药物有渗湿利水作用的味是",
+      "options": {
+        "A": "涩味",
+        "B": "辛味",
+        "C": "酸味",
+        "D": "淡味",
+        "E": "咸味"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/990ef84eae727ee228679933f47fa9b005d5a98c.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 21,
+      "question_type": "A",
+      "stem": "鉴定苦杏仁时所依据的香气来自于",
+      "options": {
+        "A": "苦杏仁苷",
+        "B": "野樱苷",
+        "C": "苯羟乙腈",
+        "D": "苯甲醛",
+        "E": "氢氰酸"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/5011693485dea160f86ef3127e1fd46fa82c6cad.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 22,
+      "question_type": "A",
+      "stem": "能溶于水的生物碱是",
+      "options": {
+        "A": "莨菪碱",
+        "B": "小檗碱",
+        "C": "长春新碱",
+        "D": "长春碱",
+        "E": "长春地辛"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/159950adda529874273d0a295e54eb19ef8423f9.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 23,
+      "question_type": "A",
+      "stem": "按中医治疗学分类对应病证的疗效是",
+      "options": {
+        "A": "止痛",
+        "B": "平喘",
+        "C": "清热",
+        "D": "蚀疣",
+        "E": "涩精"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/9865edf358a3f9c98c12a62f938a2aa3d5bfd4c5.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 24,
+      "question_type": "A",
+      "stem": "《中国药典》规定的“低温干燥”所用的温度一般是不超过",
+      "options": {
+        "A": "45℃",
+        "B": "50℃",
+        "C": "55℃",
+        "D": "60℃",
+        "E": "65℃"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/17586589034635688d74e8128e3190d4c0630cc1.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 25,
+      "question_type": "A",
+      "stem": "升浮药物具有的功效是",
+      "options": {
+        "A": "降气",
+        "B": "止咳",
+        "C": "开窍",
+        "D": "潜阳",
+        "E": "泻下"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/ac4b026af9b8272f2dedc74655bb086d2db9e7b1.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 26,
+      "question_type": "A",
+      "stem": "按照道地药材划分，菊花归属为",
+      "options": {
+        "A": "广药",
+        "B": "怀药",
+        "C": "云药",
+        "D": "川药",
+        "E": "浙药"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/796c126ec22dd95954f389e06bdcfc84bb97ca4a.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 27,
+      "question_type": "A",
+      "stem": "以3年生秋季为适宜采收期，需要挖根后剥取根皮的药材是",
+      "options": {
+        "A": "黄柏",
+        "B": "肉桂",
+        "C": "杜仲",
+        "D": "合欢皮",
+        "E": "牡丹皮"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/13461b27b523a174d8bd486bfbba3027f88d3d37.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 28,
+      "question_type": "A",
+      "stem": "常用于测定具有共轭体系结构特征的光谱鉴定方法为",
+      "options": {
+        "A": "MS",
+        "B": "IR",
+        "C": "PC",
+        "D": "1HNMR",
+        "E": "UV"
+      },
+      "answer": "E",
+      "explanation": "",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 29,
+      "question_type": "A",
+      "stem": "溶于酸水，可以和碘化铋钾反应生成橘红色的是",
+      "options": {
+        "A": "皂苷",
+        "B": "强心苷",
+        "C": "生物碱",
+        "D": "黄酮",
+        "E": "香豆素"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/788bf706da7490751fc6d90c1bb48fa7278502da.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 30,
+      "question_type": "A",
+      "stem": "下列莨菪烷类生物碱中碱性最强的是",
+      "options": {
+        "A": "莨菪碱",
+        "B": "东莨菪碱",
+        "C": "山莨菪碱",
+        "D": "去甲莨菪碱",
+        "E": "樟柳碱"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/3188d1194bf248820b222bfcabe76ca9f21f50b1.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 31,
+      "question_type": "A",
+      "stem": "有肝肾毒性，具有吡咯里西啶类结构的生物碱是",
+      "options": {
+        "A": "麻黄碱",
+        "B": "东莨菪碱",
+        "C": "苦参碱",
+        "D": "千里光宁碱",
+        "E": "番木鳖碱"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/efc73e016999a3499c2b9e2a3beb201c2ecca49b.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 32,
+      "question_type": "A",
+      "stem": "中药连翘中所含的主要成分是",
+      "options": {
+        "A": "香豆素",
+        "B": "蒽醌类",
+        "C": "生物碱",
+        "D": "木脂素",
+        "E": "黄酮"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/106ab5b31c6e9f67a6fed1f271f181d86a445d1a.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 33,
+      "question_type": "A",
+      "stem": "下列化合物属于二氢黄酮的是",
+      "options": {
+        "A": "大豆素",
+        "B": "葛根素",
+        "C": "橙皮苷",
+        "D": "山柰酚",
+        "E": "黄芩苷"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/ffb74edd0519759e016df6f0672f34a42e369afb.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 34,
+      "question_type": "A",
+      "stem": "属于倍半萜类的化合物是",
+      "options": {
+        "A": "龙脑",
+        "B": "梓醇苷",
+        "C": "紫杉醇",
+        "D": "青蒿素",
+        "E": "穿心莲内酯"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/3ad22afafe56eb3b0fc429aa3362fc41b49a55ff.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 35,
+      "question_type": "A",
+      "stem": "根据形成苷键的原子分类，属于N-苷的是",
+      "options": {
+        "A": "山慈菇苷",
+        "B": "萝卜苷",
+        "C": "鸟苷",
+        "D": "天麻苷",
+        "E": "毛莨苷"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/eb15814ac1e86734a1557954ce0bc4d58631ac2f.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 36,
+      "question_type": "A",
+      "stem": "渗漉法是",
+      "options": {
+        "A": "不断向药材中添加新溶剂，慢慢地从容器下端流出浸出液的一种方法",
+        "B": "在常温或温热(60～80℃)条件下，以合适的溶剂，用适当的时间浸渍药材以溶出其中成分的一种方法",
+        "C": "在中药中加入水后加热煮沸，从中提取有效成分的一种方法",
+        "D": "用易挥发的有机溶剂加热提取中药中成分的一种方法",
+        "E": "用索氏提取器进行中药成分提取的一种方法"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/912f34b3aaaa69e894aae14e4f90abb11eb60c35.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 37,
+      "question_type": "A",
+      "stem": "皮类植物药采收一般原则为",
+      "options": {
+        "A": "春初发芽或刚露苗时",
+        "B": "秋冬两季，有效物质积累较多时",
+        "C": "春末夏初时",
+        "D": "花完全盛开后",
+        "E": "果实成熟时"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/47dff17eef60f46c4be647eddaede6b36a418b8d.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 38,
+      "question_type": "A",
+      "stem": "下图道地药材主产于[图片]",
+      "options": {
+        "A": "河南",
+        "B": "河北",
+        "C": "山西",
+        "D": "云南",
+        "E": "东北"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/dac09b19026e4dd6b0ff0d49b4988498.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 39,
+      "question_type": "A",
+      "stem": "关于胶囊剂的特点叙述错误的是",
+      "options": {
+        "A": "药物的油溶剂可以填充软胶囊",
+        "B": "药物的O/W型乳剂可以填充软胶囊",
+        "C": "过五号筛的固体粉末和颗粒可以填充软胶囊",
+        "D": "刺激性强的易溶性药物不宜制成胶囊剂",
+        "E": "易风化的药物不宜制成胶囊剂"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/590ad3814e6792211305f671d126c102cda43200.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 40,
+      "question_type": "A",
+      "stem": "下图中的药材来源于[图片]",
+      "options": {
+        "A": "蓼科",
+        "B": "毛茛科",
+        "C": "豆科",
+        "D": "茜草科",
+        "E": "五加科"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/eec82e47753448728a7ea1ff6153fcec.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 41,
+      "question_type": "A",
+      "stem": "制何首乌应选用的辅料是",
+      "options": {
+        "A": "米醋",
+        "B": "蜂蜜",
+        "C": "盐水",
+        "D": "甘草水",
+        "E": "黑豆汁"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/f562bd80fc1bd5b55053ebc04afb934145dda674.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 42,
+      "question_type": "X",
+      "stem": "需要“发汗”的药材是",
+      "options": {
+        "A": "玄参",
+        "B": "杜仲",
+        "C": "厚朴",
+        "D": "茯苓",
+        "E": "续断"
+      },
+      "answer": "A,B,C,D,E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/2d26d619ae7a2b027a27f61592034c22fa5265e9.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 43,
+      "question_type": "A",
+      "stem": "提取莪术挥发油常用的方法是",
+      "options": {
+        "A": "浸渍法",
+        "B": "渗漉法",
+        "C": "超声提取法",
+        "D": "加热回流法",
+        "E": "水蒸气蒸馏法"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/ef8b00a6ab67129a2f86e7c2a220205986161f4f.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 44,
+      "question_type": "A",
+      "stem": "可用作滴眼剂黏度调节剂的是",
+      "options": {
+        "A": "三氯叔丁醇",
+        "B": "硝酸苯汞",
+        "C": "硼酸盐缓冲液",
+        "D": "羟苯乙酯",
+        "E": "甲基纤维素"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/05cb62149d1658273fb105b9342b5a8a5ca50644.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 45,
+      "question_type": "A",
+      "stem": "宜用煅淬法炮制的中药是",
+      "options": {
+        "A": "石膏",
+        "B": "赭石",
+        "C": "雄黄",
+        "D": "白矾",
+        "E": "石决明"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/d9165f1670c96abf84828f4b1c93d40e734eca68.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 46,
+      "question_type": "A",
+      "stem": "黄连的炮制品中，能抑制其苦寒之性，使其寒而不滞，清气分湿热，散肝胆火的是",
+      "options": {
+        "A": "酒黄连",
+        "B": "姜黄连",
+        "C": "萸黄连",
+        "D": "醋黄连",
+        "E": "炒黄连"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/d094a13eeae7308d2f4463cd9b1a0d1d335ec448.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 47,
+      "question_type": "A",
+      "stem": "炒王不留行的火力是",
+      "options": {
+        "A": "中火",
+        "B": "大火",
+        "C": "小火",
+        "D": "武火",
+        "E": "文火"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/8bfd33e0b0aec3506cde3a56b02bcaff915fa793.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 48,
+      "question_type": "A",
+      "stem": "滴丸的溶散时限为",
+      "options": {
+        "A": "5min",
+        "B": "15min",
+        "C": "30min",
+        "D": "45min",
+        "E": "60min"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/a628a28948bf11c9054fa9ca05dfcf0106ab0dc6.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 49,
+      "question_type": "A",
+      "stem": "土炒白术的炮制作用是",
+      "options": {
+        "A": "健胃消食作用增强",
+        "B": "收敛止血作用增强",
+        "C": "健脾消胀作用增强",
+        "D": "补脾止泻作用增强",
+        "E": "泻火除烦作用增强"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/8bd92bcbdd1b669a10a3d6d2da850a3cde682f74.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 50,
+      "question_type": "X",
+      "stem": "药用部位为花的某一部分的是",
+      "options": {
+        "A": "槐花",
+        "B": "西红花",
+        "C": "蒲黄",
+        "D": "旋覆花",
+        "E": "莲须"
+      },
+      "answer": "B,C,E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/bda177cc71b7b66b98eb50ee12be4435b2e2afb8.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 51,
+      "question_type": "A",
+      "stem": "生物碱多存在于",
+      "options": {
+        "A": "单子叶植物",
+        "B": "双子叶植物",
+        "C": "蕨类植物",
+        "D": "裸子植物",
+        "E": "藻类植物"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/9fadd4e70c7a600533054768b844c6b1bb7d3d7c.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 52,
+      "question_type": "A",
+      "stem": "酸性最强的黄酮类化合物是",
+      "options": {
+        "A": "5，7---羟基黄酮",
+        "B": "3，5---羟基黄酮",
+        "C": "3，6一二羟基黄酮",
+        "D": "3，7--羟基黄酮",
+        "E": "7，4’—二羟基黄酮"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/d0e2af29c2d78350149e089e18e79b95e1fbad07.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 53,
+      "question_type": "A",
+      "stem": "紫杉醇的结构类型是",
+      "options": {
+        "A": "黄酮",
+        "B": "多元酚",
+        "C": "二萜",
+        "D": "环烯醚萜",
+        "E": "倍半萜"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/3edad54057d7c004f9d79fa5e6d431243108687c.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 54,
+      "question_type": "A",
+      "stem": "人参皂苷是",
+      "options": {
+        "A": "甾体皂苷",
+        "B": "蒽醌苷",
+        "C": "强心苷",
+        "D": "黄酮苷",
+        "E": "三萜皂苷"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/99b8c3d882f1b7c2790205f6595827a379caac13.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 55,
+      "question_type": "A",
+      "stem": "主要根据氢键吸附原理分离物质的方法是",
+      "options": {
+        "A": "膜分离法",
+        "B": "聚酰胺色谱法",
+        "C": "硅胶柱色谱法",
+        "D": "离子交换树脂法",
+        "E": "分馏法"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/a01fdd8d49908f8c93276ff71a7009e908997687.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 56,
+      "question_type": "A",
+      "stem": "在植物体内大多数生物碱存在的形式是",
+      "options": {
+        "A": "游离状态",
+        "B": "无机酸盐",
+        "C": "络合物",
+        "D": "有机酸盐",
+        "E": "内盐状态"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/6e09a1d2d65f838f31aafc4e8453612a669b9f5c.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 57,
+      "question_type": "A",
+      "stem": "东莨菪碱碱性小于莨菪碱是由于",
+      "options": {
+        "A": "分子内氢键",
+        "B": "N为酰胺型",
+        "C": "氮原子杂化方式不同",
+        "D": "氮阳离子和OH-以离子键形式结合",
+        "E": "空间效应"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/a27d862796ae17a6273ef1fbe94f25de973dfee1.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 58,
+      "question_type": "A",
+      "stem": "下列关于醋香附说法错误的是",
+      "options": {
+        "A": "加定量米醋拌匀，润至醋被吸尽，文火炒干",
+        "B": "每100kg香附，用米醋20kg",
+        "C": "入肝经，增强疏肝止痛作用，能消积化滞",
+        "D": "加定量米醋、与米醋等量的水，煮至醋液被吸尽",
+        "E": "通经脉，散结滞"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/ff2f85686f245ba59538e5e5fa729b8f63d0c2fb.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 59,
+      "question_type": "A",
+      "stem": "石决明炮制的作用是",
+      "options": {
+        "A": "改变药性",
+        "B": "降低毒副作用",
+        "C": "缓和燥性",
+        "D": "使质地疏松",
+        "E": "以上都不是"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/e7471d19678436369bc420ee1664ef78cd3ebadd.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 60,
+      "question_type": "A",
+      "stem": "《中国药典》凡例规定称取“2g\"样量系指取样重量可为",
+      "options": {
+        "A": "l.5—2.5 g",
+        "B": "1.05~2.05g",
+        "C": "1.4-2.6g",
+        "D": "l.04-2.06g",
+        "E": "1.6-2.4g"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/f4fd4d35cc35c8b355858a0e461bc22711606bba.js",
+      "group_id": "11774",
+      "shared_stem": null
+    },
+    {
+      "question_number": 61,
+      "question_type": "B",
+      "stem": "倍半萜化合物包括",
+      "options": {
+        "A": "莪术醇",
+        "B": "雷公藤甲素",
+        "C": "穿心莲内酯",
+        "D": "柴胡皂苷",
+        "E": "马兜铃酸"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/ff3565410e5b82b2ef78686bfef1c85623aafaaf.js",
+      "group_id": "374085",
+      "shared_stem": "A．莪术醇\nB．雷公藤甲素\nC．穿心莲内酯\nD．柴胡皂苷\nE．马兜铃酸"
+    },
+    {
+      "question_number": 62,
+      "question_type": "B",
+      "stem": "双环二萜化合物包括",
+      "options": {
+        "A": "莪术醇",
+        "B": "雷公藤甲素",
+        "C": "穿心莲内酯",
+        "D": "柴胡皂苷",
+        "E": "马兜铃酸"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/3162fcfb4ba4d898128c05c286b6d6d9d57d8cb7.js",
+      "group_id": "374085",
+      "shared_stem": "A．莪术醇\nB．雷公藤甲素\nC．穿心莲内酯\nD．柴胡皂苷\nE．马兜铃酸"
+    },
+    {
+      "question_number": 63,
+      "question_type": "B",
+      "stem": "三萜皂苷化合物包括",
+      "options": {
+        "A": "莪术醇",
+        "B": "雷公藤甲素",
+        "C": "穿心莲内酯",
+        "D": "柴胡皂苷",
+        "E": "马兜铃酸"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/8fb74ab5057c7aaa17a7cef05409b126a6f2f37c.js",
+      "group_id": "374085",
+      "shared_stem": "A．莪术醇\nB．雷公藤甲素\nC．穿心莲内酯\nD．柴胡皂苷\nE．马兜铃酸"
+    },
+    {
+      "question_number": 64,
+      "question_type": "B",
+      "stem": "三环二萜类衍生物包括",
+      "options": {
+        "A": "莪术醇",
+        "B": "雷公藤甲素",
+        "C": "穿心莲内酯",
+        "D": "柴胡皂苷",
+        "E": "马兜铃酸"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/84b2c3c9f071c31c502a711a8f1c372a87cafd8d.js",
+      "group_id": "374085",
+      "shared_stem": "A．莪术醇\nB．雷公藤甲素\nC．穿心莲内酯\nD．柴胡皂苷\nE．马兜铃酸"
+    },
+    {
+      "question_number": 65,
+      "question_type": "B",
+      "stem": "可用作气雾剂抛射剂的物质是",
+      "options": {
+        "A": "丙二醇",
+        "B": "司盘-60",
+        "C": "亚硫酸钠",
+        "D": "四氟乙烷",
+        "E": "羟苯乙酯"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/097e92af76baf88fb6fc6b3573b4868a312380f1.js",
+      "group_id": "374085",
+      "shared_stem": "A．丙二醇\nB．司盘-60\nC．亚硫酸钠\nD．四氟乙烷\nE．羟苯乙酯"
+    },
+    {
+      "question_number": 66,
+      "question_type": "B",
+      "stem": "可用作气雾剂潜溶剂的物质是",
+      "options": {
+        "A": "丙二醇",
+        "B": "司盘-60",
+        "C": "亚硫酸钠",
+        "D": "四氟乙烷",
+        "E": "羟苯乙酯"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/77c3534be206c0a9483224bf9289195cf9835937.js",
+      "group_id": "374085",
+      "shared_stem": "A．丙二醇\nB．司盘-60\nC．亚硫酸钠\nD．四氟乙烷\nE．羟苯乙酯"
+    },
+    {
+      "question_number": 67,
+      "question_type": "B",
+      "stem": "可用作气雾剂防腐剂的物质是",
+      "options": {
+        "A": "丙二醇",
+        "B": "司盘-60",
+        "C": "亚硫酸钠",
+        "D": "四氟乙烷",
+        "E": "羟苯乙酯"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/9d60fe32866e376dbf204a3f46bb14872defda03.js",
+      "group_id": "374085",
+      "shared_stem": "A．丙二醇\nB．司盘-60\nC．亚硫酸钠\nD．四氟乙烷\nE．羟苯乙酯"
+    },
+    {
+      "question_number": 68,
+      "question_type": "B",
+      "stem": "可用作气雾剂抗氧剂的物质是",
+      "options": {
+        "A": "丙二醇",
+        "B": "司盘-60",
+        "C": "亚硫酸钠",
+        "D": "四氟乙烷",
+        "E": "羟苯乙酯"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/4d776664ddc5c40503e53da542c24ecf14c6e4a6.js",
+      "group_id": "374085",
+      "shared_stem": "A．丙二醇\nB．司盘-60\nC．亚硫酸钠\nD．四氟乙烷\nE．羟苯乙酯"
+    },
+    {
+      "question_number": 69,
+      "question_type": "B",
+      "stem": "砒霜、雄黄等的主要毒性成分是",
+      "options": {
+        "A": "毒蛋白",
+        "B": "砷",
+        "C": "皂苷",
+        "D": "强心苷",
+        "E": "内酯"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/eb391bea1592889315ef9415311b064332c90a18.js",
+      "group_id": "374085",
+      "shared_stem": "A.毒蛋白\nB.砷\nC.皂苷\nD.强心苷\nE.内酯"
+    },
+    {
+      "question_number": 70,
+      "question_type": "B",
+      "stem": "中药商陆、黄药子的等的主要毒性成分是",
+      "options": {
+        "A": "毒蛋白",
+        "B": "砷",
+        "C": "皂苷",
+        "D": "强心苷",
+        "E": "内酯"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/5b1cfe8db4e71f1bc000df3ddd2ed47d68f02dd8.js",
+      "group_id": "374085",
+      "shared_stem": "A.毒蛋白\nB.砷\nC.皂苷\nD.强心苷\nE.内酯"
+    },
+    {
+      "question_number": 71,
+      "question_type": "B",
+      "stem": "洋地黄、蟾酥、夹竹桃的主要毒性成分是",
+      "options": {
+        "A": "毒蛋白",
+        "B": "砷",
+        "C": "皂苷",
+        "D": "强心苷",
+        "E": "内酯"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/68b33bae5f234ca81d7d3d3fe5e46daf7170c04e.js",
+      "group_id": "374085",
+      "shared_stem": "A.毒蛋白\nB.砷\nC.皂苷\nD.强心苷\nE.内酯"
+    },
+    {
+      "question_number": 72,
+      "question_type": "B",
+      "stem": "属于2，6-二去氧糖的是",
+      "options": {
+        "A": "红景天苷",
+        "B": "苦杏仁苷",
+        "C": "果糖",
+        "D": "蔗糖",
+        "E": "洋地黄毒苷"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/8adf39710d0ba58612e39d6581e8e70cb15dd92c.js",
+      "group_id": "374085",
+      "shared_stem": "A.红景天苷\nB.苦杏仁苷\nC.果糖\nD.蔗糖\nE.洋地黄毒苷"
+    },
+    {
+      "question_number": 73,
+      "question_type": "B",
+      "stem": "属于二糖的是",
+      "options": {
+        "A": "红景天苷",
+        "B": "苦杏仁苷",
+        "C": "果糖",
+        "D": "蔗糖",
+        "E": "洋地黄毒苷"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/5ec41a63f265e2b748fe616dac40342702a07862.js",
+      "group_id": "374085",
+      "shared_stem": "A.红景天苷\nB.苦杏仁苷\nC.果糖\nD.蔗糖\nE.洋地黄毒苷"
+    },
+    {
+      "question_number": 74,
+      "question_type": "B",
+      "stem": "防己诺林碱又称",
+      "options": {
+        "A": "汉防己甲素",
+        "B": "汉防己乙素",
+        "C": "莨菪碱",
+        "D": "东莨菪碱",
+        "E": "延胡索乙素"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/86aad7aa11d2f054c72543ac8423a7819f189319.js",
+      "group_id": "374085",
+      "shared_stem": "A.汉防己甲素\nB.汉防己乙素\nC.莨菪碱\nD.东莨菪碱\nE.延胡索乙素"
+    },
+    {
+      "question_number": 75,
+      "question_type": "B",
+      "stem": "阿托品又称",
+      "options": {
+        "A": "汉防己甲素",
+        "B": "汉防己乙素",
+        "C": "莨菪碱",
+        "D": "东莨菪碱",
+        "E": "延胡索乙素"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/371f052809374ae3c68d11871e25a7c66190bfc6.js",
+      "group_id": "374085",
+      "shared_stem": "A.汉防己甲素\nB.汉防己乙素\nC.莨菪碱\nD.东莨菪碱\nE.延胡索乙素"
+    },
+    {
+      "question_number": 76,
+      "question_type": "B",
+      "stem": "具有升华性的是",
+      "options": {
+        "A": "烟碱",
+        "B": "咖啡因",
+        "C": "甜菜碱",
+        "D": "药根碱",
+        "E": "蛇根碱"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/4377737685253935b8bc0ca37294630f153554cb.js",
+      "group_id": "374085",
+      "shared_stem": "A.烟碱\nB.咖啡因\nC.甜菜碱\nD.药根碱\nE.蛇根碱"
+    },
+    {
+      "question_number": 77,
+      "question_type": "B",
+      "stem": "具有红颜色的是",
+      "options": {
+        "A": "烟碱",
+        "B": "咖啡因",
+        "C": "甜菜碱",
+        "D": "药根碱",
+        "E": "蛇根碱"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/b6a4c8ea1f7fe67997ee077b93cffee5ee01a144.js",
+      "group_id": "374085",
+      "shared_stem": "A.烟碱\nB.咖啡因\nC.甜菜碱\nD.药根碱\nE.蛇根碱"
+    },
+    {
+      "question_number": 78,
+      "question_type": "B",
+      "stem": "状态为液体的是",
+      "options": {
+        "A": "烟碱",
+        "B": "咖啡因",
+        "C": "甜菜碱",
+        "D": "药根碱",
+        "E": "蛇根碱"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/c7f988d7e0bf3edc8d611980b63f5f4846fcc30a.js",
+      "group_id": "374085",
+      "shared_stem": "A.烟碱\nB.咖啡因\nC.甜菜碱\nD.药根碱\nE.蛇根碱"
+    },
+    {
+      "question_number": 79,
+      "question_type": "B",
+      "stem": "软胶囊的崩解时限要求为",
+      "options": {
+        "A": "5min",
+        "B": "10min",
+        "C": "30min",
+        "D": "60min",
+        "E": "90min"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/2add0435e69cb3326656af660b5f8014d0a6e3fa.js",
+      "group_id": "374085",
+      "shared_stem": "A、5min\nB、10min\nC、30min\nD、60min\nE、90min"
+    },
+    {
+      "question_number": 80,
+      "question_type": "B",
+      "stem": "硬胶囊的崩解时限要求为",
+      "options": {
+        "A": "5min",
+        "B": "10min",
+        "C": "30min",
+        "D": "60min",
+        "E": "90min"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/bcf9870e6c44ece01d117f79b7709d86631939a0.js",
+      "group_id": "374085",
+      "shared_stem": "A、5min\nB、10min\nC、30min\nD、60min\nE、90min"
+    },
+    {
+      "question_number": 81,
+      "question_type": "B",
+      "stem": "属于软膏剂类脂类基质的是",
+      "options": {
+        "A": "羊毛脂",
+        "B": "聚乙二醇",
+        "C": "红丹",
+        "D": "O/W 型乳剂基质",
+        "E": "植物油"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/473f5ec2f966f56fe15903ba18024467867501f5.js",
+      "group_id": "374085",
+      "shared_stem": "A、羊毛脂\nB、聚乙二醇\nC、红丹\nD、O/W 型乳剂基质\nE、植物油"
+    },
+    {
+      "question_number": 82,
+      "question_type": "B",
+      "stem": "属于软膏剂油脂类基质的是",
+      "options": {
+        "A": "羊毛脂",
+        "B": "聚乙二醇",
+        "C": "红丹",
+        "D": "O/W 型乳剂基质",
+        "E": "植物油"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/144acf5eb069d26ccb234ef65793eba61050af47.js",
+      "group_id": "374085",
+      "shared_stem": "A、羊毛脂\nB、聚乙二醇\nC、红丹\nD、O/W 型乳剂基质\nE、植物油"
+    },
+    {
+      "question_number": 83,
+      "question_type": "B",
+      "stem": "抗坏血酸在中药注射液中的作用",
+      "options": {
+        "A": "增加溶解度",
+        "B": "调整PH值",
+        "C": "调节渗透压",
+        "D": "用作助悬剂",
+        "E": "防治药物的氧化"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/6aa0a320e5b66f0416ed14b8128c2d0ba549792c.js",
+      "group_id": "374085",
+      "shared_stem": "A、增加溶解度\nB、调整PH值\nC、 调节渗透压\nD、用作助悬剂\nE、防治药物的氧化"
+    },
+    {
+      "question_number": 84,
+      "question_type": "B",
+      "stem": "氯化钠常在中药注射液中的作用",
+      "options": {
+        "A": "增加溶解度",
+        "B": "调整PH值",
+        "C": "调节渗透压",
+        "D": "用作助悬剂",
+        "E": "防治药物的氧化"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/42a0bc4b543aaa2828547684dbf8afa5d0023423.js",
+      "group_id": "374085",
+      "shared_stem": "A、增加溶解度\nB、调整PH值\nC、 调节渗透压\nD、用作助悬剂\nE、防治药物的氧化"
+    },
+    {
+      "question_number": 85,
+      "question_type": "B",
+      "stem": "含毒性药物的酊剂浓度为",
+      "options": {
+        "A": "100ml 相当于原饮片20g",
+        "B": "100ml 相当于原饮片30g",
+        "C": "100ml 相当于原饮片10g",
+        "D": "100ml 相当于原饮片5g",
+        "E": "100ml 相当于原饮片25g"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/7be43c912a431fe33f6b8ff6f2c9139246547292.js",
+      "group_id": "374085",
+      "shared_stem": "A、100ml 相当于原饮片20g\nB、100ml 相当于原饮片30g\nC、100ml 相当于原饮片10g\nD、100ml 相当于原饮片5g\nE、100ml 相当于原饮片25g"
+    },
+    {
+      "question_number": 86,
+      "question_type": "B",
+      "stem": "普通酊剂药物的浓度为",
+      "options": {
+        "A": "100ml 相当于原饮片20g",
+        "B": "100ml 相当于原饮片30g",
+        "C": "100ml 相当于原饮片10g",
+        "D": "100ml 相当于原饮片5g",
+        "E": "100ml 相当于原饮片25g"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/be1cb44dd4b7dc21de62db54bb08313163f746ee.js",
+      "group_id": "374085",
+      "shared_stem": "A、100ml 相当于原饮片20g\nB、100ml 相当于原饮片30g\nC、100ml 相当于原饮片10g\nD、100ml 相当于原饮片5g\nE、100ml 相当于原饮片25g"
+    },
+    {
+      "question_number": 87,
+      "question_type": "B",
+      "stem": "白术的主产地是",
+      "options": {
+        "A": "甘肃",
+        "B": "河南",
+        "C": "四川",
+        "D": "浙江",
+        "E": "吉林"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/2238c25b15cca155195422d46891783541ebdc9c.js",
+      "group_id": "374085",
+      "shared_stem": "A、甘肃\nB、河南\nC、四川\nD、浙江\nE、吉林"
+    },
+    {
+      "question_number": 88,
+      "question_type": "B",
+      "stem": "山药的主产地是",
+      "options": {
+        "A": "甘肃",
+        "B": "河南",
+        "C": "四川",
+        "D": "浙江",
+        "E": "吉林"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/1909e660096e4cdda61d91e38765a803292720a0.js",
+      "group_id": "374085",
+      "shared_stem": "A、甘肃\nB、河南\nC、四川\nD、浙江\nE、吉林"
+    },
+    {
+      "question_number": 89,
+      "question_type": "B",
+      "stem": "主要根据沸点高低原理分离物质的方法是",
+      "options": {
+        "A": "膜分离法",
+        "B": "聚酰胺色谱法",
+        "C": "硅胶柱色谱法",
+        "D": "离子交换树脂法",
+        "E": "分馏法"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/57c7ac9f779fafc605268ddc2217dd2c0020acc1.js",
+      "group_id": "374085",
+      "shared_stem": "A、膜分离法\nB、聚酰胺色谱法\nC、硅胶柱色谱法\nD、离子交换树脂法\nE、分馏法"
+    },
+    {
+      "question_number": 90,
+      "question_type": "B",
+      "stem": "主要根据分子大小不同分离物质的方法是",
+      "options": {
+        "A": "膜分离法",
+        "B": "聚酰胺色谱法",
+        "C": "硅胶柱色谱法",
+        "D": "离子交换树脂法",
+        "E": "分馏法"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/6bb1b938384c1e89c9630c8ff1ae36c762f0144d.js",
+      "group_id": "374085",
+      "shared_stem": "A、膜分离法\nB、聚酰胺色谱法\nC、硅胶柱色谱法\nD、离子交换树脂法\nE、分馏法"
+    },
+    {
+      "question_number": 91,
+      "question_type": "B",
+      "stem": "《中国药典》紫草的质量控制成分结构类型是",
+      "options": {
+        "A": "蒽醌",
+        "B": "苯醌",
+        "C": "萘醌",
+        "D": "菲醌",
+        "E": "蒽酚"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/5cbffdaa1519995e0ef6415f87a6f6e06fc06883.js",
+      "group_id": "374085",
+      "shared_stem": "A、蒽醌\nB、苯醌\nC、萘醌\nD、菲醌\nE、蒽酚"
+    },
+    {
+      "question_number": 92,
+      "question_type": "B",
+      "stem": "虎杖含有的主要成分结构类型是",
+      "options": {
+        "A": "蒽醌",
+        "B": "苯醌",
+        "C": "萘醌",
+        "D": "菲醌",
+        "E": "蒽酚"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/b724907db89c5045af9237547566b1ba1d0c7082.js",
+      "group_id": "374085",
+      "shared_stem": "A、蒽醌\nB、苯醌\nC、萘醌\nD、菲醌\nE、蒽酚"
+    },
+    {
+      "question_number": 93,
+      "question_type": "B",
+      "stem": "中药地黄降血糖的有效成分是",
+      "options": {
+        "A": "青蒿素",
+        "B": "龙脑",
+        "C": "穿心莲内酯",
+        "D": "甜菊苷",
+        "E": "梓醇"
+      },
+      "answer": "E",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/90fec1c22d945c7b4b5c0db45b57c9794ad216f2.js",
+      "group_id": "374085",
+      "shared_stem": "A、青蒿素\nB、龙脑\nC、穿心莲内酯\nD、甜菊苷\nE、梓醇"
+    },
+    {
+      "question_number": 94,
+      "question_type": "B",
+      "stem": "穿心莲抗菌消炎的有效成分是",
+      "options": {
+        "A": "青蒿素",
+        "B": "龙脑",
+        "C": "穿心莲内酯",
+        "D": "甜菊苷",
+        "E": "梓醇"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/818c4f7f21e86bf143b7b1039f32c7d0d072d7d3.js",
+      "group_id": "374085",
+      "shared_stem": "A、青蒿素\nB、龙脑\nC、穿心莲内酯\nD、甜菊苷\nE、梓醇"
+    },
+    {
+      "question_number": 95,
+      "question_type": "B",
+      "stem": "区别甾体皂苷和三萜皂苷",
+      "options": {
+        "A": "三氯乙酸反应",
+        "B": "molish反应",
+        "C": "中性醋酸铅",
+        "D": "吉拉尔试剂",
+        "E": "盐酸-镁粉"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/45cc8b36e8e3b1d8a004f731cf264eb6618b8ebf.js",
+      "group_id": "374085",
+      "shared_stem": "A. 三氯乙酸反应\nB. molish反应\nC. 中性醋酸铅\nD. 吉拉尔试剂\nE. 盐酸-镁粉"
+    },
+    {
+      "question_number": 96,
+      "question_type": "B",
+      "stem": "区别三萜皂苷元和三萜皂苷",
+      "options": {
+        "A": "三氯乙酸反应",
+        "B": "molish反应",
+        "C": "中性醋酸铅",
+        "D": "吉拉尔试剂",
+        "E": "盐酸-镁粉"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/04f328354d44249536c20f4bbaaee45b5f8f79c2.js",
+      "group_id": "374085",
+      "shared_stem": "A. 三氯乙酸反应\nB. molish反应\nC. 中性醋酸铅\nD. 吉拉尔试剂\nE. 盐酸-镁粉"
+    },
+    {
+      "question_number": 97,
+      "question_type": "B",
+      "stem": "分离酸性皂苷和中性皂苷",
+      "options": {
+        "A": "三氯乙酸反应",
+        "B": "molish反应",
+        "C": "中性醋酸铅",
+        "D": "吉拉尔试剂",
+        "E": "盐酸-镁粉"
+      },
+      "answer": "C",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/16531df86c2b37faabc9701b2d10a6d94d5e3b9e.js",
+      "group_id": "374085",
+      "shared_stem": "A. 三氯乙酸反应\nB. molish反应\nC. 中性醋酸铅\nD. 吉拉尔试剂\nE. 盐酸-镁粉"
+    },
+    {
+      "question_number": 98,
+      "question_type": "B",
+      "stem": "主产地为河南的药材是",
+      "options": {
+        "A": "白术",
+        "B": "甘草",
+        "C": "人参",
+        "D": "地黄",
+        "E": "狗脊"
+      },
+      "answer": "D",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/a942431e261cc3317580026270a02671d49f3295.js",
+      "group_id": "374085",
+      "shared_stem": "A.白术\nB.甘草\nC.人参\nD.地黄\nE.狗脊"
+    },
+    {
+      "question_number": 99,
+      "question_type": "B",
+      "stem": "主产地为浙江的药材是",
+      "options": {
+        "A": "白术",
+        "B": "甘草",
+        "C": "人参",
+        "D": "地黄",
+        "E": "狗脊"
+      },
+      "answer": "A",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/0819d0b449ceb136941caaf8f12b98c1f6c7b0f0.js",
+      "group_id": "374085",
+      "shared_stem": "A.白术\nB.甘草\nC.人参\nD.地黄\nE.狗脊"
+    },
+    {
+      "question_number": 100,
+      "question_type": "B",
+      "stem": "产地是内蒙古的药材是",
+      "options": {
+        "A": "白术",
+        "B": "甘草",
+        "C": "人参",
+        "D": "地黄",
+        "E": "狗脊"
+      },
+      "answer": "B",
+      "explanation": "解析链接: https://oss-hqwx-edu24ol.hqwx.com/2918036b6840ade1d9163eb0a0b46fb4f12abbb9.js",
+      "group_id": "374085",
+      "shared_stem": "A.白术\nB.甘草\nC.人参\nD.地黄\nE.狗脊"
+    }
+  ]
+}
