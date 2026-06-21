@@ -1,0 +1,52 @@
+[
+  {
+    "class": "option option__inline",
+    "text": "A",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "B",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "C",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "D",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline correct",
+    "text": "E",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "A",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "B",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "C",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline correct",
+    "text": "D",
+    "parent": "question-options has-bg"
+  },
+  {
+    "class": "option option__inline",
+    "text": "E",
+    "parent": "question-options has-bg"
+  }
+]

@@ -11,7 +11,7 @@ from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 
 from app.database import engine, Base
-from app.routers import pdf, questions, study, tags
+from app.routers import pdf, questions, study, tags, exam
 
 
 @asynccontextmanager
@@ -45,6 +45,7 @@ app.include_router(pdf.router)
 app.include_router(questions.router)
 app.include_router(study.router)
 app.include_router(tags.router)
+app.include_router(exam.router)
 
 
 @app.get("/")

@@ -1,0 +1,166 @@
+  <div> -> "返回中药学专业知识(一)2020年执业药师考试《中药学专业知识（一）》真题及解析0/ 120"
+    <div class="examTab-box"> -> "返回中药学专业知识(一)2020年执业药师考试《中药学专业知识（一）》真题及解析0/ 120"
+      <div class="examTab-back"> -> "返回"
+      <div class="examTab-ct"> -> "中药学专业知识(一)2020年执业药师考试《中药学专业知识（一）》真题及解析"
+        <span> -> "中药学专业知识(一)"
+        <span> -> "2020年执业药师考试《中药学专业知识（一）》真题及解析"
+      <div class="examTab-num"> -> "0/ 120"
+        <em> -> "0"
+    <div class="examProgress-box settings-bgcolor__h">
+  <div> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+    <div> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+        <div> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+          <div id="question_120" class="question-view-normal"> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+            <div class="select-none"> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+              <div class="question-view-multi settings-fontsize"> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，"
+                <div class="f-w-bold m-b-20 m-r-20"> -> "120. 【多项选择题】关于药物口服吸收影响因素的说法，正确的有(  )过期考点争议题"
+                  <span> -> "120. 【多项选择题】"
+                  <span> -> "关于药物口服吸收影响因素的说法，正确的有(  )"
+                  <span class="question-title-tag"> -> "过期考点争议题"
+                      <span> -> "过期考点"
+                      <span> -> "争议题"
+                <ul class="question-options has-bg"> -> "A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程B.通常药物溶出后，以分子形式分散在胃肠液中与生物膜接触才能产生吸收C.胃内容物体积及食物类型可影响药物吸"
+                  <li class="option correct"> -> "A.对于难溶性固体药物，药物的溶出可能是吸收的限速过程"
+                    <span> -> "对于难溶性固体药物，药物的溶出可能是吸收的限速过程"
+                  <li class="option correct"> -> "B.通常药物溶出后，以分子形式分散在胃肠液中与生物膜接触才能产生吸收"
+                    <span> -> "通常药物溶出后，以分子形式分散在胃肠液中与生物膜接触才能产生吸收"
+                  <li class="option correct"> -> "C.胃内容物体积及食物类型可影响药物吸收"
+                    <span> -> "胃内容物体积及食物类型可影响药物吸收"
+                  <li class="option"> -> "D.采用药物的稳定型晶型，可加快药物溶出，利于药物吸收"
+                    <span> -> "采用药物的稳定型晶型，可加快药物溶出，利于药物吸收"
+                  <li class="option correct"> -> "E.通常未解离的分子型药物比其离子型药物易于透过生物膜"
+                    <span> -> "通常未解离的分子型药物比其离子型药物易于透过生物膜"
+            <div class="question-common-result-wrapper"> -> "回答错误正确答案：A,B,C,E我的答案：未作答收藏本题收起解析对本次“AI 主观题评分”评价反馈答案解析来源：2020年执业药师考试《中药学专业知识（一）》真"
+              <div class="question-common-result settings-bordercolor"> -> "回答错误正确答案：A,B,C,E我的答案：未作答收藏本题收起解析"
+                <div class="question-common-result-inner settings-bgcolor__m"> -> "回答错误正确答案：A,B,C,E我的答案：未作答收藏本题收起解析"
+                  <div class="answer-result-incorrect"> -> "回答错误"
+                  <div class="correctanswer"> -> "正确答案：A,B,C,E"
+                  <div class="useranswer incorrect"> -> "我的答案：未作答"
+                  <div class="handler"> -> "收藏本题收起解析"
+                    <div class="handler-fav"> -> "收藏本题"
+                    <div class="handler-explain settings-bgcolor__l activated"> -> "收起解析"
+              <div class="ai-evaluation-v2-container"> -> "对本次“AI 主观题评分”评价反馈"
+                <div class="ai-evaluation-v2-wrapper"> -> "对本次“AI 主观题评分”评价反馈"
+                  <div class="ai-evaluation-v2-header"> -> "对本次“AI 主观题评分”评价反馈"
+                    <div class="ai-evaluation-v2-tit"> -> "对本次“AI 主观题评分”评价反馈"
+                    <a class="ai-evaluation-v2-close common_close_animation">
+                  <div class="ai-evaluation-v2-insert js_ai-evaluation-v2 js_ai-evaluation-v2-5680295">
+              <div class="question-common-explain select-none"> -> "答案解析来源：2020年执业药师考试《中药学专业知识（一）》真题及解析试题难度：本题共被作答5005次    正确率28.85%知识点：第1章>第1节>中药体内"
+                <div class="explain-title"> -> "答案解析"
+                <ul class="explain-ul settings-fontsize"> -> "来源：2020年执业药师考试《中药学专业知识（一）》真题及解析试题难度：本题共被作答5005次    正确率28.85%知识点：第1章>第1节>中药体内过程及其"
+                  <li> -> "来源：2020年执业药师考试《中药学专业知识（一）》真题及解析"
+                    <span class="explain-label"> -> "来源："
+                  <li> -> "试题难度：本题共被作答5005次    正确率28.85%"
+                    <span class="explain-label"> -> "试题难度："
+                    <em> -> "5005"
+                    <em> -> "28.85"
+                  <li> -> "知识点：第1章>第1节>中药体内过程及其影响因素|教材页码：P46-48"
+                    <span class="explain-label"> -> "知识点："
+                    <span class="explain-label-separator"> -> "|"
+                    <span class="explain-label2"> -> "教材页码："
+                  <li> -> "关闭知识点讲解"
+                    <div class="video-container-wrapper"> -> "关闭知识点讲解"
+                      <div> -> "关闭知识点讲解"
+                        <span class="explain-label">
+                        <div class="video-container"> -> "关闭知识点讲解"
+                          <div class="video-popup"> -> "关闭"
+                            <div id="polyvideochapter5680295">
+                            <div class="video-close"> -> "关闭"
+                          <div class="video-mask">
+                          <button class="btn-red2 video-btn video-btn-chapter"> -> "知识点讲解"
+                          <div class="video-tag-btn">
+                  <li> -> "参考解析："
+                    <span class="explain-label"> -> "参考解析："
+                  <div class="analysis-content"> -> "影响药物口服给药吸收的因素有（1）生理因素：①胃肠液的成分和性质；②胃排空速率：影响胃排空速率的主要因素有胃内容物的体积、食物的类型、体位以及药物性质等。③其他"
+                <div class="examJxxq-tzBox"> -> "此解析是否帮到了你看懂没看懂"
+                  <div class="examJxxq-tzL">
+                  <div class="examJxxq-tzR"> -> "此解析是否帮到了你看懂没看懂"
+                    <div class="examJxxq-sfkd"> -> "此解析是否帮到了你看懂没看懂"
+                      <div class="examJxxq-sfkdChoice"> -> "看懂没看懂"
+                        <span> -> "看懂"
+                        <span> -> "没看懂"
+              <div class="question-common-moretab"> -> "做题笔记 (0)试题答疑"
+                <div class="moretab-nav"> -> "做题笔记 (0)试题答疑"
+                  <div class="examBjdy-btnL"> -> "做题笔记 (0)试题答疑"
+                    <div class="moretab-nav-note settings-bgcolor__m"> -> "做题笔记 (0)"
+                    <div id="moretab-nav-dayi-5680295" class="moretab-nav-dayi settings-bgcolor__m"> -> "试题答疑"
+                  <div class="moretab-nav-handler">
+                <div class="examBjdy-mainBox">
+              <div class="examBjdy-dayiBox-ai examBjdy-dayiBox-insert">

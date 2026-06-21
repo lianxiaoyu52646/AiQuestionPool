@@ -61,4 +61,17 @@ export const tagApi = {
   initDefaults: () => api.post('/tags/init-defaults')
 }
 
+// 真题模考相关
+export const examApi = {
+  papers: () => api.get('/exam/papers'),
+  paperDetail: (id) => api.get(`/exam/papers/${id}`),
+  paperReview: (id) => api.get(`/exam/papers/${id}/review`),
+  submit: (paperId, answers, timeUsedSeconds = 0) => api.post('/exam/attempts', { paper_id: paperId, answers, time_used_seconds: timeUsedSeconds }),
+  attempts: (params) => api.get('/exam/attempts', { params }),
+  attemptDetail: (id) => api.get(`/exam/attempts/${id}`),
+  saveDraft: (paperId, answers, timeUsedSeconds, currentIndex) => api.post('/exam/drafts', { paper_id: paperId, answers, time_used_seconds: timeUsedSeconds, current_index: currentIndex }),
+  getDraft: (paperId) => api.get(`/exam/drafts/${paperId}`),
+  deleteDraft: (paperId) => api.delete(`/exam/drafts/${paperId}`)
+}
+
 export default api

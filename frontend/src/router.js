@@ -25,6 +25,11 @@ const routes = [
     path: '/pdf-view/:id',
     name: 'PDFView',
     component: () => import('./views/PDFView.vue')
+  },
+  {
+    path: '/exam',
+    name: 'Exam',
+    component: () => import('./views/Exam.vue')
   }
 ]
 

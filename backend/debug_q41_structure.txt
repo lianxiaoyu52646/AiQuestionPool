@@ -1,0 +1,28 @@
+<div id="question_42" class="question-normal select-none">
+  <div >
+    <div class="question-single settings-fontsize">
+      <div class="f-w-bold m-b-20 m-r-20">
+        <span >
+          TEXT: 42. 【配伍选择题】
+        <span >
+          TEXT: 具有发汗、平喘、镇咳、利尿作用的中药是(  )
+        <span class="question-title-tag">
+          <span >
+            TEXT: 过期考点
+          <span >
+            TEXT: 争议题
+      <ul class="options has-bg">
+        <li class="option option__inline settings-hoverbgcolor__m">
+          <span >
+        <li class="option option__inline settings-hoverbgcolor__m">
+          <span >
+        <li class="option option__inline settings-hoverbgcolor__m">
+          <span >
+        <li class="option option__inline settings-hoverbgcolor__m">
+          <span >
+        <li class="option option__inline settings-hoverbgcolor__m">
+          <span >
+    <div class="question-common-handlerbar settings-bgcolor__m settings-bordercolor">
+      <div class="handler">
+        <div class="handler-fav">
+          TEXT: 收藏本题

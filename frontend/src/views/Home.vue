@@ -16,6 +16,9 @@
         <router-link to="/questions?mode=study" class="btn-success text-lg px-8 py-3">
           ✍️ 开始学习
         </router-link>
+        <router-link to="/exam" class="btn-primary text-lg px-8 py-3" style="background: #4f46e5;">
+          📝 真题模考
+        </router-link>
       </div>
     </div>
 
@@ -40,7 +43,7 @@
     </div>
 
     <!-- 快速操作 -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
       <router-link to="/upload" class="card hover:shadow-md transition-shadow cursor-pointer">
         <div class="text-4xl mb-4">📤</div>
         <h3 class="text-lg font-bold mb-2">上传PDF</h3>
@@ -50,6 +53,11 @@
         <div class="text-4xl mb-4">✍️</div>
         <h3 class="text-lg font-bold mb-2">智能刷题</h3>
         <p class="text-gray-600 text-sm">FSRS算法智能推送，优先复习薄弱知识点</p>
+      </router-link>
+      <router-link to="/exam" class="card hover:shadow-md transition-shadow cursor-pointer">
+        <div class="text-4xl mb-4">📝</div>
+        <h3 class="text-lg font-bold mb-2">真题模考</h3>
+        <p class="text-gray-600 text-sm">历年执业药师考试真题，在线模拟考试</p>
       </router-link>
       <router-link to="/stats" class="card hover:shadow-md transition-shadow cursor-pointer">
         <div class="text-4xl mb-4">📊</div>

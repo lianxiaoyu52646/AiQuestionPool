@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "LI",
+    "class": "option correct",
+    "text": "A. 对于难溶性固体药物，药物的溶出可能是吸收的限速过程"
+  },
+  {
+    "tag": "LI",
+    "class": "option correct",
+    "text": "B. 通常药物溶出后，以分子形式分散在胃肠液中与生物膜接触才能产生吸收"
+  },
+  {
+    "tag": "LI",
+    "class": "option correct",
+    "text": "C. 胃内容物体积及食物类型可影响药物吸收"
+  },
+  {
+    "tag": "LI",
+    "class": "option",
+    "text": "D. 采用药物的稳定型晶型，可加快药物溶出，利于药物吸收"
+  },
+  {
+    "tag": "LI",
+    "class": "option correct",
+    "text": "E. 通常未解离的分子型药物比其离子型药物易于透过生物膜"
+  }
+]
