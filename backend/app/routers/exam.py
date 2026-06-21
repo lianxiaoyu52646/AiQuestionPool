@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Exam simulation routes (真题模考)"""
+import json
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
@@ -9,6 +10,23 @@ from app.database import get_db
 from app.exam_models import ExamPaper, ExamQuestion, ExamAttempt, ExamAnswer
 
 router = APIRouter(prefix="/api/exam", tags=["Exam"])
+
+
+def ensure_options_dict(opts):
+    """确保options字段为dict类型（处理可能的双重JSON编码）"""
+    if opts is None:
+        return {}
+    if isinstance(opts, dict):
+        return opts
+    if isinstance(opts, str):
+        try:
+            parsed = json.loads(opts)
+            if isinstance(parsed, str):
+                parsed = json.loads(parsed)
+            return parsed if isinstance(parsed, dict) else {}
+        except Exception:
+            return {}
+    return {}
 
 
 # ========== Schemas ==========
@@ -183,7 +201,7 @@ def get_paper(paper_id: int, db: Session = Depends(get_db)):
             question_number=q.question_number,
             question_type=q.question_type,
             stem=q.stem,
-            options=q.options or {},
+            options=ensure_options_dict(q.options),
             answer="",  # 考试中不返回答案
             explanation="",  # 考试中不返回解析
             group_id=q.group_id,
@@ -221,7 +239,7 @@ def get_paper_review(paper_id: int, db: Session = Depends(get_db)):
             question_number=q.question_number,
             question_type=q.question_type,
             stem=q.stem,
-            options=q.options or {},
+            options=ensure_options_dict(q.options),
             answer=q.answer,
             explanation=q.explanation or "",
             group_id=q.group_id,
@@ -434,7 +452,7 @@ def submit_attempt(req: SubmitAttemptRequest, db: Session = Depends(get_db)):
             correct_answer=q.answer,
             is_correct=is_correct if user_ans else None,  # 未作答返回 None
             stem=q.stem,
-            options=q.options or {},
+            options=ensure_options_dict(q.options),
             explanation=q.explanation or "",
             shared_stem=q.shared_stem,
         ))
@@ -537,7 +555,7 @@ def get_attempt_detail(attempt_id: int, db: Session = Depends(get_db)):
             correct_answer=q.answer,
             is_correct=is_correct,  # None=未作答, True/False=已作答
             stem=q.stem,
-            options=q.options or {},
+            options=ensure_options_dict(q.options),
             explanation=q.explanation or "",
             shared_stem=q.shared_stem,
         ))
