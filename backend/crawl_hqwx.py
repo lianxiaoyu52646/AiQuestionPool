@@ -168,13 +168,16 @@ def parse_questions_from_text(text, subject, year):
                         options[opt_match.group(1)] = clean_text(opt_match.group(2))
                         j += 1
                         continue
-                    # E选项可能没有前缀
+                    # E选项可能没有前缀（hqwx.com页面E选项常省略"E."前缀）
                     if len(options) == 4 and 'E' not in options:
-                        if not re.match(r'^\d+\.', lines[j]) and not lines[j].startswith('【') and not re.match(r'^[A-D]\.', lines[j]):
-                            if len(lines[j]) > 2 and not lines[j].startswith('考点'):
-                                options['E'] = clean_text(lines[j])
-                                j += 1
-                                continue
+                        if (not re.match(r'^\d+\.', lines[j]) 
+                            and not lines[j].startswith('【') 
+                            and not re.match(r'^[A-E]\.', lines[j])
+                            and not lines[j].startswith('考点')
+                            and len(lines[j]) >= 2):
+                            options['E'] = clean_text(lines[j])
+                            j += 1
+                            continue
                     break
                 
                 # 判断是B型(有选项)还是C型(有共享题干文字)
@@ -326,9 +329,25 @@ def parse_questions_from_text(text, subject, year):
         
         # 检查是否是分组标记行
         if re.search(r'[【\[]\d+-\d+[】\]]', line):
+            # 遇到新分组标记时，先保存当前题目，防止下一组选项污染
+            if current_q_num is not None:
+                save_collected()
             if re.match(r'^(?:考点\d+)?\s*[【\[]\d+-\d+[】\]]\s*$', line):
                 continue
             continue
+        
+        # E选项检测：已收集A-D且当前行是纯文本（非题号、非答案、非分组标记）
+        if len(current_options) == 4 and 'E' not in current_options:
+            if (not re.match(r'^\d+\.', line) 
+                and not line.startswith('【') 
+                and not re.match(r'^[A-E]\.', line)
+                and not line.startswith('考点')
+                and not line.startswith('执业药师')
+                and not line.startswith('由于篇幅')
+                and not line.startswith('以上就是')
+                and len(line) > 1):
+                current_options['E'] = clean_text(line)
+                continue
         
         # 其他文本：可能是题干的延续
         if current_q_num is not None and not in_explanation:
@@ -352,8 +371,12 @@ def parse_questions_from_text(text, subject, year):
         # 判断题型
         if q_num in b_type_groups:
             group_info = b_type_groups[q_num]
-            if group_info['has_options'] and not options:
-                options = group_info['options']
+            # B型题：始终使用分组选项（Step 1中已正确解析含E选项）
+            # 避免Step 2中选项错位污染
+            if group_info['has_options']:
+                # 合并：优先使用分组选项，Step 2收集的作为补充
+                if group_info['options']:
+                    options = group_info['options']
             if group_info['has_options']:
                 q_type = 'B'
             else:
@@ -510,12 +533,12 @@ def crawl_subject_year(db, subject, year):
         text = extract_article_content(html)
         
         # 定位真题内容区域
-        # 尝试多种起始标记 — 优先匹配"执业药师"前缀的标记（只在正文中出现）
+        # 注意：标记必须足够具体，避免匹配到标题中的"综合知识与技能"等
         start_markers = [
             '一、最佳选择题', '一、 最佳选择题', '最佳选择题(40题)', '最佳选择题(45题)', '一、最佳选择',
-            '执业药师配伍选择题', '配伍选择题(45题)', '配伍选择题',
-            '执业药师综合选择题', '综合分析题', '综合选择题',
-            '执业药师多项选择题', '多项选择题(5题)', '多项选择题(10题)', '多项选择',
+            '二、配伍选择题', '二、 配伍选择题', '执业药师配伍选择题', '配伍选择题(45题)', '配伍选择题',
+            '三、综合选择题', '三、 综合选择题', '综合选择题(10题)', '执业药师综合分析题', '综合分析题(10题)', '综合分析题', '执业药师综合选择题',
+            '四、多项选择题', '四、 多项选择题', '执业药师多项选择题', '多项选择题(5题)', '多项选择题(10题)', '多项选择',
             '考点',  # 配伍题页面用"考点XX"标记
         ]
         # end_markers只用于截断尾部无关内容，不会截断题目内容
